@@ -1,23 +1,49 @@
-const banner_show = document.querySelector(".banner_show");
-const list = document.querySelector(".list");
-const prev = document.querySelector(".prev");
-const next = document.querySelector(".next");
-items = [];
 
-let currentIndex = 0;
-function updateBanner(index){
-    items = list.querySelectorAll(".item");
-    items.forEach(item => {
-        item.classList.remove("active");
-    })
+    const banner_show = document.querySelector(".banner_show");
+    const list = document.querySelector(".list");
+    const prev = document.querySelector(".prev");
+    const next = document.querySelector(".next");
+    let items = [];
 
-    currentIndex = index;
-    
-    if (items[index]){
-        const src = items[index].getAttribute("src");
-        banner_show.setAttribute("src", src);
-        items[index].classList.add("active");
+    let currentIndex = 0;
+    function updateItems(){
+        items = list.querySelectorAll(".item");
     }
-}
+    function updateBanner(index){
+        updateItems();
+        items.forEach(item => {
+            item.classList.remove("active");
+        })
 
-updateBanner(0);
+        currentIndex = index;
+        
+        if (items[index]){
+            const src = items[index].getAttribute("src");
+            banner_show.setAttribute("src", src);
+            items[index].classList.add("active");
+        }
+    }
+
+    prev.addEventListener("click", ()=>{
+        currentIndex--;
+        if (currentIndex < 0){
+            currentIndex = items.length - 1;
+        }
+        updateBanner(currentIndex);
+    })
+    next.addEventListener("click", ()=>{
+        currentIndex++;
+        if (currentIndex >= items.length){
+            currentIndex = 0;
+        }
+        updateBanner(currentIndex);
+    })
+    updateItems()
+    items.forEach((item, index) =>{
+        
+        item.addEventListener("click", (e)=>{
+            currentIndex = index;
+            updateBanner(currentIndex);
+        })
+    })
+    updateBanner(0);
