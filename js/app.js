@@ -1,4 +1,4 @@
-
+// Taoj banner slider
     const banner_show = document.querySelector(".banner_show");
     const list = document.querySelector(".list");
     const prev = document.querySelector(".prev");
@@ -47,3 +47,13 @@
         })
     })
     updateBanner(0);
+
+// BAnner tu chay:
+function autoSlide() {
+    currentIndex++;
+    if (currentIndex >= items.length) {
+        currentIndex = 0;
+    }
+    updateBanner(currentIndex);
+}
+setInterval(autoSlide, 4000);
