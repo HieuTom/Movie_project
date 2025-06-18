@@ -46,7 +46,7 @@
             updateBanner(currentIndex);
         })
     })
-    updateBanner(0);
+updateBanner(0);
 
 // BAnner tu chay:
 function autoSlide() {
@@ -57,3 +57,16 @@ function autoSlide() {
     updateBanner(currentIndex);
 }
 setInterval(autoSlide, 4000);
+
+// Cuộn ngang danh sách phim đề cử maf khoong caanf giuwx shift
+const scrollContainer_r = document.querySelector('.recommended_movie_list');
+const scrollContainer_h = document.querySelector('.hot_movie_list');
+scrollContainer_r.addEventListener('wheel', function (evt) { //recommended_movie_list
+  evt.preventDefault(); // ngăn cuộn dọc
+  scrollContainer_r.scrollLeft += evt.deltaY * 2.5; // cuộn ngang theo chiều cuộn chuột
+});
+scrollContainer_h.addEventListener('wheel', function (evt) { //hot_movie_list
+  evt.preventDefault(); 
+  scrollContainer_h.scrollLeft += evt.deltaY * 2.5; 
+
+});

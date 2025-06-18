@@ -3,11 +3,11 @@
     <head>
         <title>Movie</title>
         <link rel="stylesheet" href="style.css">
-        <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+        <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'> <!-- Thư viện biểu tượng nút mũi tên-->
         <meta charset="UTF-8">
     </head>
     <body>
-        <header>
+        <header> <!-- Thanh điều hướng -->
             <div class="container">
                 <div class="logo">
                     <a href="#Home">4Movie</a>
@@ -21,13 +21,13 @@
                     </ul>
                 </nav>
             </div>
-
+                    <!-- Thanh tìm kiếm và nút tìm kiếm-->
             <div class="search_container">
                 <input type="text" placeholder="Tìm kiếm phim..." class="search_bar">
                 <button class="search_button">Tìm kiếm</button>
             </div>
         </header>
-
+                    <!-- Slide banner -->
         <div class="container_1">
             <div class="controllor">
                 <img class="banner_show" src="https://resizing.flixster.com/Dh4OMZLwTAY-hOr_2gTXPit_Bys=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22101560_v_h10_ar.jpg"></img>
@@ -40,14 +40,16 @@
             </div>
             <div class="list"></div>
         </div>
-        
+        <!-- Phần chứa các thể loại phim -->
         <main>
-            <section>
-                <h1>Trang web cua toi</h1>
-            </section>
-            <section>
-                <h1>Danh sach phim</h1>
-            </section>
+            <p class="a">Phim đề cử</p>
+            <div class="wrapper">
+                <div class="recommended_movie_list"></div>
+            </div>
+            <p class="a">Phim hot</p>
+            <div class="wrapper">
+                <div class="hot_movie_list"></div>
+            </div>
         </main>
 
         <footer>
