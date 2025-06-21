@@ -51,3 +51,39 @@ fetch("banner_movie.json")
   .catch(error => {
     console.log("Error fetching hot movie data:", error);
   });
+  // All movie list (gop ca recommended + hot + banner)
+fetch("recommended_movie.json")
+  .then(res => res.json())
+  .then(recommended_data => {
+    fetch("hot_movie.json")
+      .then(res => res.json())
+      .then(hot_data => {
+        fetch("banner_movie.json")
+          .then(res => res.json())
+          .then(banner_data => {
+            const all_movie_list = document.querySelector(".all_movie_list");
+            //gop tat ca du lieu
+            const all_movies = [...recommended_data, ...hot_data, ...banner_data];
+            // hien thi tung phim
+            all_movies.forEach(movie => {
+              const movie_item = document.createElement("div");
+              const poster = movie.poster_link || movie.poster;
+
+              movie_item.innerHTML = `
+                <img class="item" src="${poster}" alt="${movie.title}" width="200">
+                <p>${movie.title} (${movie.year})</p>
+              `;
+              all_movie_list.appendChild(movie_item);
+            });
+          })
+          .catch(error => {
+            console.log("Error fetching banner movie data:", error);
+          });
+      })
+      .catch(error => {
+        console.log("Error fetching hot movie data:", error);
+      });
+  })
+  .catch(error => {
+    console.log("Error fetching recommended movie data:", error);
+  });
