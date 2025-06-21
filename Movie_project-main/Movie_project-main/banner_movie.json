@@ -1,0 +1,82 @@
+[
+  {
+    "title": "The Hunger Games: The Ballad of Songbirds and Snakes",
+    "year": 2023,
+    "director": "Francis Lawrence",
+    "description": "Tiền truyện của loạt phim The Hunger Games, kể về cuộc đời của Coriolanus Snow khi còn trẻ và những sự kiện dẫn đến cuộc nổi dậy trong tương lai.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BZDk2YjNhYzEtYzg2ZC00OWEwLWJhYzgtMGUzMWVjNDFmYzI5XkEyXkFqcGc@._V1_.jpg",
+    "genre": ["Hành động", "Phiêu lưu", "Khoa học viễn tưởng"]
+  },
+  {
+    "title": "Killers of the Flower Moon",
+    "year": 2023,
+    "director": "Martin Scorsese",
+    "description": "Dựa trên câu chuyện có thật về các vụ giết người hàng loạt trong cộng đồng người Osage ở Oklahoma vào những năm 1920, dẫn đến cuộc điều tra của FBI.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BZWY5ZDVjNTUtODI5Yy00MjFhLWEyM2EtYzZjM2VjZTI0MTBjXkEyXkFqcGc@._V1_.jpg",
+    "genre": ["Tội phạm", "Lịch sử", "Hình sự", "Chính kịch"]
+  },
+  {
+    "title": "Napoleon",
+    "year": 2023,
+    "director": "Ridley Scott",
+    "description": "Phim tiểu sử về cuộc đời và sự nghiệp của Napoleon Bonaparte, từ những ngày đầu đến khi trở thành Hoàng đế Pháp.",
+    "poster": "https://play-lh.googleusercontent.com/5sq6ghnXhbYhrLx9ZE9XOdSobJarBF3G9hmO8b7daPk0VQNQrNdTCJ77UrCAYmWuSuwe-jUKIlrZveG7yA",
+    "genre": ["Chiến tranh", "Tiểu sử", "Lịch sử", "Chính kịch"]
+  },
+  {
+    "title": "Anora",
+    "year": 2024,
+    "director": "Sean Baker",
+    "description": "Theo chân Ani, một vũ công thoát y tại Brooklyn, bất ngờ kết hôn với con trai tỉ phú Nga trong tuần lễ hỗn loạn giữa tình yêu, tiền bạc và áp lực gia đình.",
+    "poster": "https://image.tmdb.org/t/p/original/qh8m8Udz0sCa5gy9VaqfHPh0yPM.jpg",
+    "genre": ["Chính kịch", "Lãng mạn"]
+  },
+  {
+    "title": "The Brutalist",
+    "year": 2024,
+    "director": "Brady Corbet",
+    "description": "Câu chuyện sử thi về kiến trúc sư người Hungary di cư đến Mỹ sau Thế chiến II, xây dựng sự nghiệp và hôn nhân, nhưng phải đối mặt thách thức hoài bão, sắc tộc và quyền lực.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BM2U0MWRjZTMtMDVhNC00MzY4LTgwOTktZGQ2MDdiYTI4OWMxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "genre": ["Chính kịch", "Lịch sử"]
+  },
+  {
+    "title": "Dune: Part Two",
+    "year": 2024,
+    "director": "Denis Villeneuve",
+    "description": "Paul Atreides liên minh với Fremen để trả thù kẻ thù, phải chọn giữa tình yêu Chani và vận mệnh vũ trụ, trong trận chiến quyết định tại Arrakis.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNTc0YmQxMjEtODI5MC00NjFiLTlkMWUtOGQ5NjFmYWUyZGJhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "genre": ["Khoa học viễn tưởng", "Hành động", "Phiêu lưu"]
+  },
+  {
+    "title": "Challengers",
+    "year": 2024,
+    "director": "Luca Guadagnino",
+    "description": "Một drama thể thao xoay quanh tam giác tình giữa ba tay vợt chuyên nghiệp: vợ - chồng - bạn cũ, đan xen căng thẳng trên sân tennis và ngoài đời.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BZTcyZGIyODctZGJhOS00MWUyLWI5ZWEtMjg4YzhkMDczMDBhXkEyXkFqcGc@._V1_.jpg",
+    "genre": ["Thể thao", "Chính kịch", "Lãng mạn"]
+  },
+  {
+    "title": "The Substance",
+    "year": 2024,
+    "director": "Coralie Fargeat",
+    "description": "Horror kỳ quái: Demi Moore uống 'The Substance' để trẻ hóa, nhưng bị cuốn vào cơn ác mộng về sắc đẹp, tuổi tác và áp lực ngành giải trí.",
+    "poster": "https://dep.com.vn/wp-content/uploads/2024/11/2-4.jpg",
+    "genre": ["Kinh dị", "Chính kịch", "Viễn tưởng"]
+  },
+  {
+    "title": "Nickel Boys",
+    "year": 2024,
+    "director": "RaMell Ross",
+    "description": "Lấy cảm hứng từ tiểu thuyết Pulitzer của Colson Whitehead, kể về hai cậu bé người Mỹ gốc Phi tại trại cải huấn khắc nghiệt ở Florida thập niên 1960.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMGRkMzIyY2QtMjc5My00NGRjLWE5ZGUtYjRiMDNjMzAwOTU0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "genre": ["Chính kịch", "Xã hội", "Lịch sử"]
+  },
+  {
+    "title": "The Wild Robot",
+    "year": 2024,
+    "director": "Christopher Sanders",
+    "description": "Phim hoạt hình gia đình: robot Roz bị đắm tàu, sống trên đảo hoang và hòa nhập với động vật, chăm sóc một chú ngỗng mồ côi.",
+    "poster": "https://m.media-amazon.com/images/M/MV5BZWNiZjVlZTUtNGUwYi00MjJmLTg2MDctNWEzYTJiMzY1ODc4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "genre": ["Hoạt hình", "Phiêu lưu", "Gia đình"]
+  }
+]

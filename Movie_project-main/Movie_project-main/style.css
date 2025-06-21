@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+/* Định dạn phông chữ, khoảng cách dòng, màu nền */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: #f0f0f0;
+}
+
+/* Định dạng phần header */
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 20;
+    top: 0;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo a {
+    color: red;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 0px 30px;
+}
+nav ul li a:hover {
+    color: orange;
+}
+
+.search_container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.search_bar {
+  width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+}
+
+.search_button {
+  width: 100px;
+  height: 45px;
+  padding: 10px 18px;
+  margin: 8px 0;
+  border-radius: 4px;
+  background-color: red;
+  color: white;
+}
+
+/* Định dạng phần banner */
+.container_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+    background-color: rgb(25, 25, 25);
+}
+.control {
+    position: absolute;
+    top:50%;
+    font-size: 30px;
+    color:white;
+}
+
+.control.prev {
+    right: 93%;
+    transform: translateY(-50%);
+}
+
+.control.next {
+    left: 93%;
+    transform: translateY(-50%);
+}
+
+div div div i{
+    font-size: 48px;
+}
+
+div div div i:hover {
+    color: orange;
+}
+
+.controllor {
+    position: relative;
+}
+
+.controllor img {
+    width: 1040px;
+    border-radius: 10px;
+}
+
+.banner_show {
+    width:80%;
+    max-width: 1200px;
+    height: 600px;
+}
+
+.banner_show:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    border: orange solid 2px;
+}
+
+.list {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+} 
+
+.list img {
+    width: 102px;
+    height: 180px;
+    padding: 5px;
+}
+
+.list img:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+    border: orange solid 2px;
+}
+
+.active {
+    background-color: rgb(242, 82, 82);
+}
+
+                                                                        /* Định dạng phàn main */
+main {
+    background-color: rgb(25, 25, 25);
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.a { /* Tiêu đề của phần phim đề cử */
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    margin: 0 20px;
+}
+
+.recommended_movie_list, .hot_movie_list {
+  display: flex;
+ overflow-x: auto;
+  gap: 16px;
+  padding: 10px;
+  scroll-behavior: smooth;
+  width: 100%;
+  max-width: 1800px;
+}
+
+.recommended_movie_list div p, .hot_movie_list div p {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.recommended_movie_list img, .hot_movie_list img {
+  width: 200px;
+  height: 300px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.recommended_movie_list img:hover, .hot_movie_list img:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+    border: orange solid 2px;
+}
+
+.recommended_movie_list::-webkit-scrollbar, .hot_movie_list::-webkit-scrollbar {
+  height: 8px;
+}
+
+.recommended_movie_list::-webkit-scrollbar-thumb, .hot_movie_list::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+.all_movie_grid {
+  display: grid;
+  color: white;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 20px;
+  justify-items: center;
+}
+.all_movie_grid img:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+    border: orange solid 2px;
+}
