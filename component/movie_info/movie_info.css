@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+/* Định dạn phông chữ, khoảng cách dòng, màu nền */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: #f0f0f0;
+}
+
+/* Định dạng phần header */
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 20;
+    top: 0;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo a {
+    color: red;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 0px 30px;
+}
+
+nav ul li a:hover {
+    color: orange;
+}
+
+.search_container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.search_bar {
+  width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+}
+
+.search_button {
+  width: 100px;
+  height: 45px;
+  padding: 10px 18px;
+  margin: 8px 0;
+  border-radius: 4px;
+  background-color: red;
+  color: white;
+}
+
+/* Định dạng phần main */
+main {
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(25, 25, 25);
+}
+
+.movie_info {
+    width: 1000px;
+}
+.movie_info h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.movie_info p {
+    color: white;
+    margin-bottom: 10px;
+}

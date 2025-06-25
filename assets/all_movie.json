@@ -3,241 +3,331 @@
     "title": "Materialists",
     "director": "Celine Song",
     "year": 2025,
-    "description": "Một câu chuyện tình lãng mạn hiện đại tại New York, theo chân một người môi giới bất động sản bị cuốn vào mối tình tay ba đầy vật chất và cảm xúc.",
-    "genre": "Hài, Lãng mạn",
-    "poster": "https://m.media-amazon.com/images/M/MV5BNmQxMTI1YmEtOGY3Yi00NzVlLWEzMjAtYTI1NWZkNDFiMDg1XkEyXkFqcGc@._V1_QL75_UX190_CR0,7,190,281_.jpg"
+    "description": "Materialists kể về một nữ môi giới bất động sản trẻ sống ở New York, người luôn khao khát một cuộc sống hào nhoáng và ổn định về tài chính. Trong hành trình chinh phục sự giàu sang, cô vướng vào một mối tình tay ba giữa một người đàn ông giàu có và một tình yêu cũ chân thành nhưng kém xa về mặt vật chất.Phim khám phá sự mâu thuẫn giữa tình yêu và tiền bạc, giữa đam mê cá nhân và áp lực xã hội, từ đó đặt ra câu hỏi: Liệu tình yêu có thể tồn tại trong một thế giới quá thực dụng?",
+    "genre": ["Hài", "Lãng mạn"],
+    "poster": "https://m.media-amazon.com/images/M/MV5BNmQxMTI1YmEtOGY3Yi00NzVlLWEzMjAtYTI1NWZkNDFiMDg1XkEyXkFqcGc@._V1_QL75_UX190_CR0,7,190,281_.jpg",
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/Materialists.html",
+    "type": "recommended"
   },
   {
     "title": "How to Train Your Dragon",
     "director": "Dean DeBlois",
     "year": 2025,
     "description": "Bản live-action của loạt phim hoạt hình nổi tiếng, kể về cậu bé Hiccup và chú rồng Toothless cùng hành trình thay đổi thế giới loài người và rồng.",
-    "genre": "Phiêu lưu, Giả tưởng",
-    "poster": "https://m.media-amazon.com/images/M/MV5BODA5Y2M0NjctNWQzMy00ODRhLWE0MzUtYmE1YTAzZjYyYmQyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    "genre": ["Phiêu lưu", "Giả tưởng"],
+    "poster": "https://m.media-amazon.com/images/M/MV5BODA5Y2M0NjctNWQzMy00ODRhLWE0MzUtYmE1YTAzZjYyYmQyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/How_to_Train_Your_Dragon.html",
+    "type": "recommended"
   },
   {
     "title": "Mission: Impossible - The Final Reckoning",
     "director": "Christopher McQuarrie",
     "year": 2025,
     "description": "Ethan Hunt trở lại với nhiệm vụ nguy hiểm nhất, đối đầu kẻ thù mạnh nhất từ trước tới nay, trong phần kết sử thi của loạt phim hành động đình đám.",
-    "genre": "Hành động, Giật gân",
-    "poster": "https://m.media-amazon.com/images/M/MV5BZGQ5NGEyYTItMjNiMi00Y2EwLTkzOWItMjc5YjJiMjMyNTI0XkEyXkFqcGc@._V1_.jpg"
+    "genre": ["Hành động", "Giật gân"],
+    "poster": "https://m.media-amazon.com/images/M/MV5BZGQ5NGEyYTItMjNiMi00Y2EwLTkzOWItMjc5YjJiMjMyNTI0XkEyXkFqcGc@._V1_.jpg",
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/Mission_Impossible_Final_Reckoning.html",
+    "type": "recommended"
   },
   {
     "title": "Sinners",
     "director": "Ryan Coogler",
     "year": 2025,
     "description": "Một bộ phim kinh dị tâm lý lấy bối cảnh miền Nam nước Mỹ, xoay quanh những bí ẩn trong một giáo hội địa phương và tội lỗi của những kẻ giấu mặt.",
-    "genre": "Kinh dị, Tâm lý",
-    "poster": "https://m.media-amazon.com/images/M/MV5BNjIwZWY4ZDEtMmIxZS00NDA4LTg4ZGMtMzUwZTYyNzgxMzk5XkEyXkFqcGc@._V1_.jpg"
+    "genre": ["Kinh dị", "Tâm lý"],
+    "poster": "https://m.media-amazon.com/images/M/MV5BNjIwZWY4ZDEtMmIxZS00NDA4LTg4ZGMtMzUwZTYyNzgxMzk5XkEyXkFqcGc@._V1_.jpg",
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/Sinners.html",
+    "type": "recommended"
   },
   {
     "title": "Ballerina",
     "director": "Len Wiseman",
     "year": 2025,
     "description": "Lấy bối cảnh trong vũ trụ John Wick, một nữ sát thủ được huấn luyện từ nhỏ tìm cách trả thù cho gia đình bị sát hại.",
-    "genre": "Hành động, Giật gân",
-    "poster": "https://m.media-amazon.com/images/M/MV5BNzdhZmY2OTQtYWI4OC00ZThkLTlhZjAtNzE2YzRjM2Q5YjJlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    "genre": ["Hành động", "Giật gân"],
+    "poster": "https://m.media-amazon.com/images/M/MV5BNzdhZmY2OTQtYWI4OC00ZThkLTlhZjAtNzE2YzRjM2Q5YjJlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/Ballerina.html",
+    "type": "recommended"
   },
   {
     "title": "The Life of Chuck",
     "director": "Tim Bradshaw",
     "year": 2025,
     "description": "Chuyển thể từ truyện ngắn của Stephen King, phim kể về cuộc đời của một người đàn ông qua ba chương độc đáo và siêu thực.",
-    "genre": "Tâm lý, Giả tưởng",
-    "poster": "https://cdn.kinocheck.com/i/670bk4i9jy.jpg"
+    "genre": ["Tâm lý", "Giả tưởng"],
+    "poster": "https://cdn.kinocheck.com/i/670bk4i9jy.jpg",
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/The_Life_of_Chuck.html",
+    "type": "recommended"
   },
   {
     "title": "F1",
     "director": "Joseph Kosinski",
     "year": 2025,
     "description": "Brad Pitt vào vai tay đua F1 kỳ cựu trở lại đường đua, kết hợp cùng tân binh trẻ trong mùa giải gay cấn và cảm xúc.",
-    "genre": "Thể thao, Hành động, Drama",
-    "poster": "https://cdn.galaxycine.vn/media/2025/4/28/f1-500_1745833699523.jpg"
+    "genre": ["Thể thao", "Hành động", "Drama"],
+    "poster": "https://cdn.galaxycine.vn/media/2025/4/28/f1-500_1745833699523.jpg",
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/F1.html",
+    "type": "recommended"
   },
   {
     "title": "Black Bag",
     "director": "Steven Soderbergh",
     "year": 2025,
     "description": "Một điệp viên kỳ cựu đối đầu âm mưu quốc tế, trong một trò chơi trí tuệ và niềm tin giữa các nhân vật có nhiều tầng lớp động cơ.",
-    "genre": "Giật gân, Drama",
-    "poster": "https://m.media-amazon.com/images/M/MV5BN2FhYjgzYTctZDcyZS00MTdlLWIzYzUtOGIyMTYzZWJkYzc4XkEyXkFqcGc@._V1_.jpg"
+    "genre": ["Giật gân", "Drama"],
+    "poster": "https://m.media-amazon.com/images/M/MV5BN2FhYjgzYTctZDcyZS00MTdlLWIzYzUtOGIyMTYzZWJkYzc4XkEyXkFqcGc@._V1_.jpg",
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/Black_Bag.html",
+    "type": "recommended"
   },
   {
     "title": "Mickey 17",
     "director": "Bong Joon Ho",
     "year": 2025,
     "description": "Mickey là một nhân bản được gửi làm nhiệm vụ tự sát trên hành tinh xa lạ, nhưng mọi chuyện rẽ hướng khi phiên bản tiếp theo của anh từ chối chết.",
-    "genre": "Viễn tưởng, Hài, Drama",
-    "poster": "https://m.media-amazon.com/images/M/MV5BZGQwYmEzMzktYzBmMy00NmVmLTkyYTUtOTYyZjliZDNhZGVkXkEyXkFqcGc@._V1_.jpg"
+    "genre": ["Viễn tưởng", "Hài", "Drama"],
+    "poster": "https://m.media-amazon.com/images/M/MV5BZGQwYmEzMzktYzBmMy00NmVmLTkyYTUtOTYyZjliZDNhZGVkXkEyXkFqcGc@._V1_.jpg",
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/Mickey_17.html",
+    "type": "recommended"
   },
   {
     "title": "The Phoenician Scheme",
     "director": "Wes Anderson",
     "year": 2025,
     "description": "Một âm mưu quốc tế hài hước và đầy màu sắc, được kể qua lối dẫn truyện đặc trưng của Wes Anderson, với dàn diễn viên quen thuộc.",
-    "genre": "Hài, Bí ẩn",
-    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZZdypVnfFUdCVJy_MHfqc9I5RkZNmRDpjTA&s"
+    "genre": ["Hài", "Bí ẩn"],
+    "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZZdypVnfFUdCVJy_MHfqc9I5RkZNmRDpjTA&s",
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/The_Phoenician_Scheme.html",
+    "type": "recommended"
   },
   {
     "title": "The Shrouds",
     "director": "David Cronenberg",
     "year": 2025,
     "description": "Một người đàn ông đau buồn phát minh ra công nghệ theo dõi người chết trong mộ, từ đó hé lộ những bí mật rùng rợn và ám ảnh.",
-    "genre": "Tâm lý, Khoa học viễn tưởng",
-    "poster": "https://m.media-amazon.com/images/M/MV5BMTk4ODIyOGEtZjk0MS00MGZmLTkxNGItMjgxZDRjZDUzMGFlXkEyXkFqcGc@._V1_.jpg"
+    "genre": ["Tâm lý", "Khoa học viễn tưởng"],
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTk4ODIyOGEtZjk0MS00MGZmLTkxNGItMjgxZDRjZDUzMGFlXkEyXkFqcGc@._V1_.jpg",
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/The_Shrouds.html",
+    "type": "recommended"
   },
   {
     "title": "Jane Austen Wrecked My Life",
     "director": "Laura Piani",
     "year": 2025,
     "description": "Một học giả khám phá những bức thư thất lạc của Jane Austen tại Anh, và từ đó tìm lại chính bản thân qua tình yêu và tri thức.",
-    "genre": "Hài, Lãng mạn",
-    "poster": "https://m.media-amazon.com/images/M/MV5BYzBkMTdhMzMtMTgwNS00NDkwLWEwOGEtMTQyNmVmOTk1YWMxXkEyXkFqcGc@._V1_.jpg"
+    "genre": ["Hài", "Lãng mạn"],
+    "poster": "https://m.media-amazon.com/images/M/MV5BYzBkMTdhMzMtMTgwNS00NDkwLWEwOGEtMTQyNmVmOTk1YWMxXkEyXkFqcGc@._V1_.jpg",
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/Jane_Austen_Wrecked_My_Life.html",
+    "type": "recommended"
   },
   {
     "title": "Pavements",
     "director": "Alex Ross Perry",
     "year": 2025,
     "description": "Phim tài liệu theo chân ban nhạc indie rock Pavement trong quá trình tái hợp, trình diễn và suy ngẫm về sự nghiệp âm nhạc của họ.",
-    "genre": "Tài liệu, Âm nhạc",
-    "poster": "https://m.media-amazon.com/images/M/MV5BM2VhNzcyYjUtNjI4OS00YjFmLWIxNmItYWM0NjEwNDY0M2U4XkEyXkFqcGc@._V1_.jpg"
+    "genre": ["Tài liệu", "Âm nhạc"],
+    "poster": "https://m.media-amazon.com/images/M/MV5BM2VhNzcyYjUtNjI4OS00YjFmLWIxNmItYWM0NjEwNDY0M2U4XkEyXkFqcGc@._V1_.jpg",
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/Pavements.html",
+    "type": "recommended"
   },
   {
     "title": "Fear Street: Prom Queen",
     "director": "Matt Palmer",
     "year": 2025,
     "description": "Một chuỗi án mạng xảy ra tại buổi dạ hội trung học năm 1988 ở Shadyside, trong phần tiền truyện hấp dẫn của loạt Fear Street.",
-    "genre": "Kinh dị, Slasher",
-    "poster": "https://m.media-amazon.com/images/M/MV5BNjJlMDJjZTctNDlkYi00YTNmLWIyZjUtZjdmZTFhNDQwMTQ4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    "genre": ["Kinh dị", "Slasher"],
+    "poster": "https://m.media-amazon.com/images/M/MV5BNjJlMDJjZTctNDlkYi00YTNmLWIyZjUtZjdmZTFhNDQwMTQ4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/Fear_Street_Prom_Queen.html",
+    "type": "recommended"
   },
   {
     "title": "Warfare",
     "director": "Ray Mendoza & Alex Garland",
     "year": 2025,
     "description": "Một cái nhìn chân thực về đời sống lính SEAL trong chiến tranh hiện đại, dựa trên trải nghiệm thực tế và cách kể chuyện đậm chất điện ảnh.",
-    "genre": "Hành động, Drama, Chiến tranh",
-    "poster": "https://m.media-amazon.com/images/M/MV5BNmUwNTk3Y2YtOTExNS00MWM3LTgzZDAtMDFhMzg0N2UxM2IwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    "genre": ["Hành động", "Drama", "Chiến tranh"],
+    "poster": "https://m.media-amazon.com/images/M/MV5BNmUwNTk3Y2YtOTExNS00MWM3LTgzZDAtMDFhMzg0N2UxM2IwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/Warfare.html",
+    "type": "recommended"
   },
   {
     "title": "Mai",
     "director": "Trấn Thành",
     "year": 2024,
     "description": "Phim nói về Mai - một nữ nhân viên massage ở TP.HCM - đối mặt với nhiều thử thách trong cuộc sống và tình yêu, đồng thời phản ánh văn hóa miền Nam qua góc nhìn hài hước và sâu sắc.",
-    "genre": "Hài, Chính kịch",
-    "poster": "https://www.elle.vn/wp-content/uploads/2023/12/06/560540/poster-Mai-scaled.jpg"
+    "genre": ["Hài", "Chính kịch"],
+    "poster": "https://www.elle.vn/wp-content/uploads/2023/12/06/560540/poster-Mai-scaled.jpg",
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/Mai.html",
+    "type": "hot"
   },
   {
     "title": "Ngày Xưa Có Một Chuyện Tình",
     "director": "Trịnh Đình Lê Minh",
     "year": 2024,
     "description": "Chuyển thể từ tiểu thuyết của Nguyễn Nhật Ánh, xoay quanh mối tình học trò ở miền Nam trong thập niên 1980-90, mang đậm chất thơ và hoài niệm.",
-    "genre": "Lãng mạn, Chính kịch",
-    "poster": "https://cdn2.tuoitre.vn/471584752817336320/2024/4/16/first-look-poster-1713248286753396686888.jpg"
+    "genre": ["Lãng mạn", "Chính kịch"],
+    "poster": "https://cdn2.tuoitre.vn/471584752817336320/2024/4/16/first-look-poster-1713248286753396686888.jpg",
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/Ngay_Xua_Co_Mot_Chuyen_Tinh.html",
+    "type": "hot"
   },
   {
     "title": "Đào, Phở & Piano",
     "director": "Phi Tiến Sơn",
     "year": 2024,
     "description": "Drama-lãng mạn lấy bối cảnh lịch sử 1947 ở Hà Nội, kể về tình yêu và chiến tranh, từng là đại diện Việt Nam dự Oscar và được chú ý vì doanh thu cao và tranh cãi.",
-    "genre": "Lịch sử, Lãng mạn, Chính kịch",
-    "poster": "https://cinema.momocdn.net/img/33735630744753025-jWYfucBwXG3ePh97bM5ReT1q65X.jpg"
+    "genre": ["Lịch sử", "Lãng mạn", "Chính kịch"],
+    "poster": "https://cinema.momocdn.net/img/33735630744753025-jWYfucBwXG3ePh97bM5ReT1q65X.jpg",
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/Dao_Pho_Piano.html",
+    "type": "hot"
   },
   {
     "title": "Mắt Biếc",
     "director": "Victor Vũ",
     "year": 2019,
     "description": "Chuyển thể từ truyện cùng tên của Nguyễn Nhật Ánh, kể về tình đơn phương sâu sắc của chàng trai dành cho cô gái mà anh yêu thầm từ nhỏ.",
-    "genre": "Lãng mạn, Chính kịch",
-    "poster": "https://upload.wikimedia.org/wikipedia/vi/4/42/%C3%81p_ph%C3%ADch_phim_M%E1%BA%AFt_bi%E1%BA%BFc.jpg"
+    "genre": ["Lãng mạn", "Chính kịch"],
+    "poster": "https://upload.wikimedia.org/wikipedia/vi/4/42/%C3%81p_ph%C3%ADch_phim_M%E1%BA%AFt_bi%E1%BA%BFc.jpg",
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/Mat_Biec.html",
+    "type": "hot"
   },
   {
     "title": "Bố Già",
     "director": "Vũ Ngọc Đãng",
     "year": 2021,
     "description": "Xoay quanh ông Ba Sang - một ông bố nội trợ nghèo ở Sài Gòn - và mối quan hệ giữa các thành viên trong gia đình, hòa trộn giữa hài hước và cảm động.",
-    "genre": "Hài, Chính kịch",
-    "poster": "https://iguov8nhvyobj.vcdn.cloud/media/catalog/product/cache/1/image/c5f0a1eff4c394a251036189ccddaacd/1/2/1200x1800.jpg"
+    "genre": ["Hài", "Chính kịch"],
+    "poster": "https://iguov8nhvyobj.vcdn.cloud/media/catalog/product/cache/1/image/c5f0a1eff4c394a251036189ccddaacd/1/2/1200x1800.jpg",
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/Bo_Gia.html",
+    "type": "hot"
   },
   {
     "title": "Glorious Ashes (Tro Tàn Rực Rỡ)",
     "director": "Bùi Thạc Chuyên",
     "year": 2022,
     "description": "Phim tâm lý nhiều lớp về ba người phụ nữ miền Tây, đoạt giải Cánh Diều Vàng và Lotus Vàng, đồng thời đại diện Việt Nam tham dự Tokyo Film Festival.",
-    "genre": "Tâm lý, Chính kịch",
-    "poster": "https://m.media-amazon.com/images/M/MV5BZGE4MWU5ZDEtMTk5NC00ZTExLWI0Y2EtZDg5ZTE3OGNiYmQxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    "genre": ["Tâm lý", "Chính kịch"],
+    "poster": "https://m.media-amazon.com/images/M/MV5BZGE4MWU5ZDEtMTk5NC00ZTExLWI0Y2EtZDg5ZTE3OGNiYmQxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/Tro_Tan_Ruc_Ro.html",
+    "type": "hot"
   },
   {
     "title": "Cu Li Never Cries",
     "director": "Phạm Ngọc Lân",
     "year": 2024,
     "description": "Tác phẩm dã sử đen trắng về hành trình của Cu Li, gây ấn tượng quốc tế sau khi ra mắt tại LHP Berlin.",
-    "genre": "Drama, Lịch sử",
-    "poster": "https://iguov8nhvyobj.vcdn.cloud/media/catalog/product/cache/1/image/1800x/71252117777b696995f01934522c402d/c/l/clnc-digitalposter-vnmarket-2048_1_.jpg"
+    "genre": ["Drama", "Lịch sử"],
+    "poster": "https://iguov8nhvyobj.vcdn.cloud/media/catalog/product/cache/1/image/1800x/71252117777b696995f01934522c402d/c/l/clnc-digitalposter-vnmarket-2048_1_.jpg",
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/Cu_Li_Never_Cries.html",
+    "type": "hot"
   },
   {
     "title": "Don't Cry, Butterfly",
     "director": "Dương Diệu Linh",
     "year": 2024,
     "description": "Fantasy comedy đầu tay, giành giải IWONDERFULL Grand Prize tại Venice Critics' Week và được giới thiệu ở Busan, Toronto .",
-    "genre": "Hài, Giả tưởng",
-    "poster": "https://m.media-amazon.com/images/M/MV5BODgwYWM2NTQtNGJhYS00ZmMzLTgzYzEtYWNlOGE4YjczZGE5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    "genre": ["Hài", "Giả tưởng"],
+    "poster": "https://m.media-amazon.com/images/M/MV5BODgwYWM2NTQtNGJhYS00ZmMzLTgzYzEtYWNlOGE4YjczZGE5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/Don't_Cry_Butterfly.html",
+    "type": "hot"
   },
   {
     "title": "The 4 Rascals (Bộ Tứ Báo Thủ)",
     "director": "Trấn Thanh",
     "year": 2025,
     "description": "Rom-com Gen Z với dàn diễn viên trẻ, thành công phòng vé lớn ở Việt Nam và được phát hành quốc tế .",
-    "genre": "Hài, Lãng mạn",
-    "poster": "https://touchcinema.com/uploads/slider-app/470x700-20-poster.jpg"
+    "genre": ["Hài", "Lãng mạn"],
+    "poster": "https://touchcinema.com/uploads/slider-app/470x700-20-poster.jpg",
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/The_4_Rascals.html",
+    "type": "hot"
   },
   {
     "title": "The Real Sister (Chị Thật)",
     "director": "Khương Ngọc",
     "year": 2024,
     "description": "Drama-hài về gia đình, chịu áp lực khi chị dâu mắc bệnh nan y đoàn tụ các em gái - từng nằm trong top 5 phim Việt ăn khách 2024 .",
-    "genre": "Drama, Hài",
-    "poster": "https://touchcinema.com/uploads/slider-app/1200wx1600h-poster.jpg"
+    "genre": ["Drama", "Hài"],
+    "poster": "https://touchcinema.com/uploads/slider-app/1200wx1600h-poster.jpg",
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/The_Real_Sister.html",
+    "type": "hot"
   },
   {
     "title": "Địa Đạo: Mặt Trời Trong Bóng Tối",
     "director": "Bùi Thạc Chuyên",
     "year": 2025,
     "description": "Phim chính luận kỷ niệm 50 năm thống nhất miền Nam, dự kiến được giới thiệu tại các liên hoan phim trong nước .",
-    "genre": "Chính luận, Lịch sử",
-    "poster": "https://upload.wikimedia.org/wikipedia/vi/thumb/d/df/Diadao2024.jpg/250px-Diadao2024.jpg"
+    "genre": ["Chính luận", "Lịch sử"],
+    "poster": "https://upload.wikimedia.org/wikipedia/vi/thumb/d/df/Diadao2024.jpg/250px-Diadao2024.jpg",
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/Diadao_Mat_Troi_Trong_Bong_Toi.html",
+    "type": "hot"
   },
   {
     "title": "Quỷ Nhập Tràng",
     "director": "Chưa rõ",
     "year": 2025,
     "description": "Phim kinh dị đạt doanh thu mở màn cao nhất trong lịch sử phim kinh dị Việt với cách khai thác tâm linh độc đáo .",
-    "genre": "Kinh dị, Tâm lý",
-    "poster": "https://iguov8nhvyobj.vcdn.cloud/media/catalog/product/cache/1/image/c5f0a1eff4c394a251036189ccddaacd/q/u/qu_nh_p_tr_ng_-_payoff_poster_-_kc_07032025_1_.jpg"
+    "genre": ["Kinh dị", "Tâm lý"],
+    "poster": "https://iguov8nhvyobj.vcdn.cloud/media/catalog/product/cache/1/image/c5f0a1eff4c394a251036189ccddaacd/q/u/qu_nh_p_tr_ng_-_payoff_poster_-_kc_07032025_1_.jpg",
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/Quy_Nhap_Trang.html",
+    "type": "hot"
   },
   {
     "title": "Đèn Âm Hồn",
     "director": "Chưa rõ",
     "year": 2025,
     "description": "Hiện tượng kinh dị đầu năm 2025, đạt doanh thu trên 100 tỷ và nhận phản hồi tích cực từ khán giả .",
-    "genre": "Kinh dị, Tâm lý",
-    "poster": "https://iguov8nhvyobj.vcdn.cloud/media/catalog/product/cache/1/image/c5f0a1eff4c394a251036189ccddaacd/m/a/main_ah_social-1.jpg"
+    "genre": ["Kinh dị", "Tâm lý"],
+    "poster": "https://iguov8nhvyobj.vcdn.cloud/media/catalog/product/cache/1/image/c5f0a1eff4c394a251036189ccddaacd/m/a/main_ah_social-1.jpg",
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/Den_Am_Hon.html",
+    "type": "hot"
   },
   {
     "title": "Inside the Yellow Cocoon Shell",
     "director": "Phạm Thiên Ân",
     "year": 2023,
     "description": "Đoạt giải Camera D'or tại Cannes 2023, phim được đánh giá là một trong những phim Việt xuất sắc nhất gần đây .",
-    "genre": "Drama, Hành trình",
-    "poster": "https://m.media-amazon.com/images/M/MV5BMzA3Y2M0MGYtMzRmMS00MmNkLTg5MTUtNjc0YjBmZjc0Y2IwXkEyXkFqcGc@._V1_.jpg"
+    "genre": ["Drama", "Hành trình"],
+    "poster": "https://m.media-amazon.com/images/M/MV5BMzA3Y2M0MGYtMzRmMS00MmNkLTg5MTUtNjc0YjBmZjc0Y2IwXkEyXkFqcGc@._V1_.jpg",
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/Inside_the_Yellow_Cocoon_Shell.html",
+    "type": "hot"
   },
   {
     "title": "Children of the Mist (Những Đứa Trẻ Trong Sương)",
     "director": "Hà Lê Diễm",
     "year": 2022,
     "description": "Phim tài liệu về thiếu nữ H'Mông chống lại phong tục, được đề cử shortlist Oscar và gây tiếng vang quốc tế .",
-    "genre": "Tài liệu, Xã hội",
-    "poster": "https://upload.wikimedia.org/wikipedia/vi/2/27/Nhungduatretrongsuong.jpg"
+    "genre": ["Tài liệu", "Xã hội"],
+    "poster": "https://upload.wikimedia.org/wikipedia/vi/2/27/Nhungduatretrongsuong.jpg",
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/Children_of_the_Mist.html",
+    "type": "hot"
   },
     {
     "title": "The Hunger Games: The Ballad of Songbirds and Snakes",
@@ -245,7 +335,10 @@
     "director": "Francis Lawrence",
     "description": "Tiền truyện của loạt phim The Hunger Games, kể về cuộc đời của Coriolanus Snow khi còn trẻ và những sự kiện dẫn đến cuộc nổi dậy trong tương lai.",
     "poster": "https://m.media-amazon.com/images/M/MV5BZDk2YjNhYzEtYzg2ZC00OWEwLWJhYzgtMGUzMWVjNDFmYzI5XkEyXkFqcGc@._V1_.jpg",
-    "genre": ["Hành động", "Phiêu lưu", "Khoa học viễn tưởng"]
+    "genre": ["Hành động", "Phiêu lưu", "Khoa học viễn tưởng"],
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/The_Hunger_Games_Ballad_of_Songbirds_and_Snakes.html",
+    "type": "banner"
   },
   {
     "title": "Killers of the Flower Moon",
@@ -253,7 +346,10 @@
     "director": "Martin Scorsese",
     "description": "Dựa trên câu chuyện có thật về các vụ giết người hàng loạt trong cộng đồng người Osage ở Oklahoma vào những năm 1920, dẫn đến cuộc điều tra của FBI.",
     "poster": "https://m.media-amazon.com/images/M/MV5BZWY5ZDVjNTUtODI5Yy00MjFhLWEyM2EtYzZjM2VjZTI0MTBjXkEyXkFqcGc@._V1_.jpg",
-    "genre": ["Tội phạm", "Lịch sử", "Hình sự", "Chính kịch"]
+    "genre": ["Tội phạm", "Lịch sử", "Hình sự", "Chính kịch"],
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/Killers_of_the_Flower_Moon.html",
+    "type": "banner"
   },
   {
     "title": "Napoleon",
@@ -261,7 +357,10 @@
     "director": "Ridley Scott",
     "description": "Phim tiểu sử về cuộc đời và sự nghiệp của Napoleon Bonaparte, từ những ngày đầu đến khi trở thành Hoàng đế Pháp.",
     "poster": "https://play-lh.googleusercontent.com/5sq6ghnXhbYhrLx9ZE9XOdSobJarBF3G9hmO8b7daPk0VQNQrNdTCJ77UrCAYmWuSuwe-jUKIlrZveG7yA",
-    "genre": ["Chiến tranh", "Tiểu sử", "Lịch sử", "Chính kịch"]
+    "genre": ["Chiến tranh", "Tiểu sử", "Lịch sử", "Chính kịch"],
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/Napoleon.html",
+    "type": "banner"
   },
   {
     "title": "Anora",
@@ -269,7 +368,10 @@
     "director": "Sean Baker",
     "description": "Theo chân Ani, một vũ công thoát y tại Brooklyn, bất ngờ kết hôn với con trai tỉ phú Nga trong tuần lễ hỗn loạn giữa tình yêu, tiền bạc và áp lực gia đình.",
     "poster": "https://image.tmdb.org/t/p/original/qh8m8Udz0sCa5gy9VaqfHPh0yPM.jpg",
-    "genre": ["Chính kịch", "Lãng mạn"]
+    "genre": ["Chính kịch", "Lãng mạn"],
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/Anora.html",
+    "type": "banner"
   },
   {
     "title": "The Brutalist",
@@ -277,7 +379,10 @@
     "director": "Brady Corbet",
     "description": "Câu chuyện sử thi về kiến trúc sư người Hungary di cư đến Mỹ sau Thế chiến II, xây dựng sự nghiệp và hôn nhân, nhưng phải đối mặt thách thức hoài bão, sắc tộc và quyền lực.",
     "poster": "https://m.media-amazon.com/images/M/MV5BM2U0MWRjZTMtMDVhNC00MzY4LTgwOTktZGQ2MDdiYTI4OWMxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-    "genre": ["Chính kịch", "Lịch sử"]
+    "genre": ["Chính kịch", "Lịch sử"],
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/The_Brutalist.html",
+    "type": "banner"
   },
   {
     "title": "Dune: Part Two",
@@ -285,7 +390,10 @@
     "director": "Denis Villeneuve",
     "description": "Paul Atreides liên minh với Fremen để trả thù kẻ thù, phải chọn giữa tình yêu Chani và vận mệnh vũ trụ, trong trận chiến quyết định tại Arrakis.",
     "poster": "https://m.media-amazon.com/images/M/MV5BNTc0YmQxMjEtODI5MC00NjFiLTlkMWUtOGQ5NjFmYWUyZGJhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-    "genre": ["Khoa học viễn tưởng", "Hành động", "Phiêu lưu"]
+    "genre": ["Khoa học viễn tưởng", "Hành động", "Phiêu lưu"],
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/Dune_Part_Two.html",
+    "type": "banner"
   },
   {
     "title": "Challengers",
@@ -293,7 +401,10 @@
     "director": "Luca Guadagnino",
     "description": "Một drama thể thao xoay quanh tam giác tình giữa ba tay vợt chuyên nghiệp: vợ - chồng - bạn cũ, đan xen căng thẳng trên sân tennis và ngoài đời.",
     "poster": "https://m.media-amazon.com/images/M/MV5BZTcyZGIyODctZGJhOS00MWUyLWI5ZWEtMjg4YzhkMDczMDBhXkEyXkFqcGc@._V1_.jpg",
-    "genre": ["Thể thao", "Chính kịch", "Lãng mạn"]
+    "genre": ["Thể thao", "Chính kịch", "Lãng mạn"],
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/Challengers.html",
+    "type": "banner"
   },
   {
     "title": "The Substance",
@@ -301,7 +412,10 @@
     "director": "Coralie Fargeat",
     "description": "Horror kỳ quái: Demi Moore uống 'The Substance' để trẻ hóa, nhưng bị cuốn vào cơn ác mộng về sắc đẹp, tuổi tác và áp lực ngành giải trí.",
     "poster": "https://dep.com.vn/wp-content/uploads/2024/11/2-4.jpg",
-    "genre": ["Kinh dị", "Chính kịch", "Viễn tưởng"]
+    "genre": ["Kinh dị", "Chính kịch", "Viễn tưởng"],
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/The_Substance.html",
+    "type": "banner"
   },
   {
     "title": "Nickel Boys",
@@ -309,7 +423,10 @@
     "director": "RaMell Ross",
     "description": "Lấy cảm hứng từ tiểu thuyết Pulitzer của Colson Whitehead, kể về hai cậu bé người Mỹ gốc Phi tại trại cải huấn khắc nghiệt ở Florida thập niên 1960.",
     "poster": "https://m.media-amazon.com/images/M/MV5BMGRkMzIyY2QtMjc5My00NGRjLWE5ZGUtYjRiMDNjMzAwOTU0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-    "genre": ["Chính kịch", "Xã hội", "Lịch sử"]
+    "genre": ["Chính kịch", "Xã hội", "Lịch sử"],
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/Nickel_Boys.html",
+    "type": "banner"
   },
   {
     "title": "The Wild Robot",
@@ -317,6 +434,9 @@
     "director": "Christopher Sanders",
     "description": "Phim hoạt hình gia đình: robot Roz bị đắm tàu, sống trên đảo hoang và hòa nhập với động vật, chăm sóc một chú ngỗng mồ côi.",
     "poster": "https://m.media-amazon.com/images/M/MV5BZWNiZjVlZTUtNGUwYi00MjJmLTg2MDctNWEzYTJiMzY1ODc4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-    "genre": ["Hoạt hình", "Phiêu lưu", "Gia đình"]
+    "genre": ["Hoạt hình", "Phiêu lưu", "Gia đình"],
+    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
+    "link": "/assets/The_Wild_Robot.html",
+    "type": "banner"
   }
 ]

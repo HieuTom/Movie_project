@@ -4,6 +4,10 @@
     box-sizing: border-box;
     border: 1px solid black;
 }
+
+a {
+    text-decoration: none;
+}
 /* Định dạn phông chữ, khoảng cách dòng, màu nền */
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -52,6 +56,7 @@ nav ul li a {
     display: block;
     padding: 0px 30px;
 }
+
 nav ul li a:hover {
     color: orange;
 }
@@ -137,15 +142,26 @@ div div div i:hover {
 
 .list {
     display: flex;
-    width: 70%;
-    justify-content: center;
+    width: 77%;
+    overflow-x: auto;
+    gap: 16px;
+    padding: 10px;
+    scroll-behavior: smooth;
     align-items: center;
 } 
+
+.list::-webkit-scrollbar {
+    height: 8px;
+}
+
+.list::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+}
 
 .list img {
     width: 102px;
     height: 180px;
-    padding: 5px;
 }
 
 .list img:hover {
@@ -154,8 +170,8 @@ div div div i:hover {
     border: orange solid 2px;
 }
 
-.active {
-    background-color: rgb(242, 82, 82);
+.item.active {
+    background-color: rgb(255, 116, 116);
 }
 
                                                                         /* Định dạng phàn main */
