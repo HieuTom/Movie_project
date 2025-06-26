@@ -7,62 +7,62 @@
     "genre": ["Hài", "Lãng mạn"],
     "poster": "https://m.media-amazon.com/images/M/MV5BNmQxMTI1YmEtOGY3Yi00NzVlLWEzMjAtYTI1NWZkNDFiMDg1XkEyXkFqcGc@._V1_QL75_UX190_CR0,7,190,281_.jpg",
     "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/Materialists.html",
+    "link": "../component/movie_info/Materialists.html",
     "type": "recommended"
   },
   {
     "title": "How to Train Your Dragon",
     "director": "Dean DeBlois",
     "year": 2025,
-    "description": "Bản live-action của loạt phim hoạt hình nổi tiếng, kể về cậu bé Hiccup và chú rồng Toothless cùng hành trình thay đổi thế giới loài người và rồng.",
+    "description": "Hiccup, một cậu bé Viking yếu đuối, vô tình kết bạn với Toothless, một con rồng Night Fury huyền thoại. Khi phát hiện rồng không phải kẻ thù, Hiccup phải đấu tranh để thay đổi định kiến của cả ngôi làng. Cuối cùng, cậu và Toothless cùng nhau chứng minh rằng con người và rồng có thể sống hòa bình.",
     "genre": ["Phiêu lưu", "Giả tưởng"],
     "poster": "https://m.media-amazon.com/images/M/MV5BODA5Y2M0NjctNWQzMy00ODRhLWE0MzUtYmE1YTAzZjYyYmQyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/How_to_Train_Your_Dragon.html",
+    "trailer": "https://www.youtube.com/embed/OWEq2Pf8qpk",
+    "link": "../component/movie_info/How_to_Train_Your_Dragon.html",
     "type": "recommended"
   },
   {
     "title": "Mission: Impossible - The Final Reckoning",
     "director": "Christopher McQuarrie",
     "year": 2025,
-    "description": "Ethan Hunt trở lại với nhiệm vụ nguy hiểm nhất, đối đầu kẻ thù mạnh nhất từ trước tới nay, trong phần kết sử thi của loạt phim hành động đình đám.",
+    "description": "Ethan Hunt (Tom Cruise) cùng đội IMF đối đầu với Entity, một trí tuệ nhân tạo nguy hiểm đe dọa kiểm soát mạng lưới hạt nhân toàn cầu. Để ngăn chặn, nhóm phải hợp tác với nhân vật Pháp, trải qua các nhiệm vụ trên biển, băng giá, và một cảnh biplane cao độ. Trong hành trình, Luther (Ving Rhames) hy sinh vì nhân loại—một khoảnh khắc cảm động đánh dấu sự kết thúc của chuỗi phim.",
     "genre": ["Hành động", "Giật gân"],
     "poster": "https://m.media-amazon.com/images/M/MV5BZGQ5NGEyYTItMjNiMi00Y2EwLTkzOWItMjc5YjJiMjMyNTI0XkEyXkFqcGc@._V1_.jpg",
-    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/Mission_Impossible_Final_Reckoning.html",
+    "trailer": "https://www.youtube.com/embed/fsQgc9pCyDU",
+    "link": "../component/movie_info/Mission_Impossible_Final_Reckoning.html",
     "type": "recommended"
   },
   {
     "title": "Sinners",
     "director": "Ryan Coogler",
     "year": 2025,
-    "description": "Một bộ phim kinh dị tâm lý lấy bối cảnh miền Nam nước Mỹ, xoay quanh những bí ẩn trong một giáo hội địa phương và tội lỗi của những kẻ giấu mặt.",
+    "description": "Sinners (2025) là phim kinh dị siêu nhiên kết hợp nhạc kịch, lấy bối cảnh miền Nam nước Mỹ năm 1932. Hai anh em sinh đôi (do Michael B. Jordan thủ vai) mở một quán nhạc blues ở Mississippi, nhưng sớm phải đối mặt với thế lực ma cà rồng và định kiến chủng tộc. Bộ phim nổi bật với âm nhạc sâu lắng, không khí u tối và thông điệp về tự do - bản sắc.",
     "genre": ["Kinh dị", "Tâm lý"],
     "poster": "https://m.media-amazon.com/images/M/MV5BNjIwZWY4ZDEtMmIxZS00NDA4LTg4ZGMtMzUwZTYyNzgxMzk5XkEyXkFqcGc@._V1_.jpg",
-    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/Sinners.html",
+    "trailer": "https://www.youtube.com/embed/bKGxHflevuk",
+    "link": "../component/movie_info/Sinners.html",
     "type": "recommended"
   },
   {
     "title": "Ballerina",
     "director": "Len Wiseman",
     "year": 2025,
-    "description": "Lấy bối cảnh trong vũ trụ John Wick, một nữ sát thủ được huấn luyện từ nhỏ tìm cách trả thù cho gia đình bị sát hại.",
+    "description": "Ballerina (2025) là phần ngoại truyện của vũ trụ John Wick, theo chân Eve (Ana de Armas) – một sát thủ ballet truy tìm kẻ đã giết cha mình. Trong hành trình trả thù, cô phải đối mặt với thế lực ngầm tàn bạo, kết hợp vũ đạo và hành động đẫm máu. Phim lấy bối cảnh giữa John Wick 3 và 4, với sự xuất hiện của Winston và John Wick (cameo).",
     "genre": ["Hành động", "Giật gân"],
     "poster": "https://m.media-amazon.com/images/M/MV5BNzdhZmY2OTQtYWI4OC00ZThkLTlhZjAtNzE2YzRjM2Q5YjJlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/Ballerina.html",
+    "trailer": "https://www.youtube.com/embed/0FSwsrFpkbw",
+    "link": "../component/movie_info/Ballerina.html",
     "type": "recommended"
   },
   {
     "title": "The Life of Chuck",
     "director": "Tim Bradshaw",
     "year": 2025,
-    "description": "Chuyển thể từ truyện ngắn của Stephen King, phim kể về cuộc đời của một người đàn ông qua ba chương độc đáo và siêu thực.",
+    "description": "The Life of Chuck (2025) kể ngược về cuộc đời của Chuck Krantz (Tom Hiddleston), từ cái chết đến tuổi thơ. Khi Chuck qua đời, thế giới dần sụp đổ theo – như ẩn dụ cho tầm ảnh hưởng thầm lặng của một con người bình thường. Phim mang màu sắc siêu thực, cảm động và giàu triết lý về sự sống, cái chết và ý nghĩa từng khoảnh khắc trong đời.",
     "genre": ["Tâm lý", "Giả tưởng"],
     "poster": "https://cdn.kinocheck.com/i/670bk4i9jy.jpg",
-    "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/The_Life_of_Chuck.html",
+    "trailer": "https://www.youtube.com/embed/qMUTCdsXD5A",
+    "link": "../component/movie_info/The_Life_of_Chuck.html",
     "type": "recommended"
   },
   {
@@ -73,7 +73,7 @@
     "genre": ["Thể thao", "Hành động", "Drama"],
     "poster": "https://cdn.galaxycine.vn/media/2025/4/28/f1-500_1745833699523.jpg",
     "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/F1.html",
+    "link": "../component/movie_info/F1.html",
     "type": "recommended"
   },
   {
@@ -84,7 +84,7 @@
     "genre": ["Giật gân", "Drama"],
     "poster": "https://m.media-amazon.com/images/M/MV5BN2FhYjgzYTctZDcyZS00MTdlLWIzYzUtOGIyMTYzZWJkYzc4XkEyXkFqcGc@._V1_.jpg",
     "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/Black_Bag.html",
+    "link": "../component/movie_info/Black_Bag.html",
     "type": "recommended"
   },
   {
@@ -95,7 +95,7 @@
     "genre": ["Viễn tưởng", "Hài", "Drama"],
     "poster": "https://m.media-amazon.com/images/M/MV5BZGQwYmEzMzktYzBmMy00NmVmLTkyYTUtOTYyZjliZDNhZGVkXkEyXkFqcGc@._V1_.jpg",
     "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/Mickey_17.html",
+    "link": "../component/movie_info/Mickey_17.html",
     "type": "recommended"
   },
   {
@@ -106,7 +106,7 @@
     "genre": ["Hài", "Bí ẩn"],
     "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZZdypVnfFUdCVJy_MHfqc9I5RkZNmRDpjTA&s",
     "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/The_Phoenician_Scheme.html",
+    "link": "../component/movie_info/The_Phoenician_Scheme.html",
     "type": "recommended"
   },
   {
@@ -114,10 +114,10 @@
     "director": "David Cronenberg",
     "year": 2025,
     "description": "Một người đàn ông đau buồn phát minh ra công nghệ theo dõi người chết trong mộ, từ đó hé lộ những bí mật rùng rợn và ám ảnh.",
-    "genre": ["Tâm lý", "Khoa học viễn tưởng"],
+    "genre": ["Tâm lý", "Viễn tưởng"],
     "poster": "https://m.media-amazon.com/images/M/MV5BMTk4ODIyOGEtZjk0MS00MGZmLTkxNGItMjgxZDRjZDUzMGFlXkEyXkFqcGc@._V1_.jpg",
     "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/The_Shrouds.html",
+    "link": "../component/movie_info/The_Shrouds.html",
     "type": "recommended"
   },
   {
@@ -128,7 +128,7 @@
     "genre": ["Hài", "Lãng mạn"],
     "poster": "https://m.media-amazon.com/images/M/MV5BYzBkMTdhMzMtMTgwNS00NDkwLWEwOGEtMTQyNmVmOTk1YWMxXkEyXkFqcGc@._V1_.jpg",
     "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/Jane_Austen_Wrecked_My_Life.html",
+    "link": "../component/movie_info/Jane_Austen_Wrecked_My_Life.html",
     "type": "recommended"
   },
   {
@@ -139,7 +139,7 @@
     "genre": ["Tài liệu", "Âm nhạc"],
     "poster": "https://m.media-amazon.com/images/M/MV5BM2VhNzcyYjUtNjI4OS00YjFmLWIxNmItYWM0NjEwNDY0M2U4XkEyXkFqcGc@._V1_.jpg",
     "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/Pavements.html",
+    "link": "../component/movie_info/Pavements.html",
     "type": "recommended"
   },
   {
@@ -150,7 +150,7 @@
     "genre": ["Kinh dị", "Slasher"],
     "poster": "https://m.media-amazon.com/images/M/MV5BNjJlMDJjZTctNDlkYi00YTNmLWIyZjUtZjdmZTFhNDQwMTQ4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/Fear_Street_Prom_Queen.html",
+    "link": "../component/movie_info/Fear_Street_Prom_Queen.html",
     "type": "recommended"
   },
   {
@@ -161,7 +161,7 @@
     "genre": ["Hành động", "Drama", "Chiến tranh"],
     "poster": "https://m.media-amazon.com/images/M/MV5BNmUwNTk3Y2YtOTExNS00MWM3LTgzZDAtMDFhMzg0N2UxM2IwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/Warfare.html",
+    "link": "../component/movie_info/Warfare.html",
     "type": "recommended"
   },
   {
@@ -172,7 +172,7 @@
     "genre": ["Hài", "Chính kịch"],
     "poster": "https://www.elle.vn/wp-content/uploads/2023/12/06/560540/poster-Mai-scaled.jpg",
     "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/Mai.html",
+    "link": "../component/movie_info/Mai.html",
     "type": "hot"
   },
   {
@@ -183,7 +183,7 @@
     "genre": ["Lãng mạn", "Chính kịch"],
     "poster": "https://cdn2.tuoitre.vn/471584752817336320/2024/4/16/first-look-poster-1713248286753396686888.jpg",
     "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/Ngay_Xua_Co_Mot_Chuyen_Tinh.html",
+    "link": "../component/movie_info/Ngay_Xua_Co_Mot_Chuyen_Tinh.html",
     "type": "hot"
   },
   {
@@ -194,7 +194,7 @@
     "genre": ["Lịch sử", "Lãng mạn", "Chính kịch"],
     "poster": "https://cinema.momocdn.net/img/33735630744753025-jWYfucBwXG3ePh97bM5ReT1q65X.jpg",
     "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/Dao_Pho_Piano.html",
+    "link": "../component/movie_info/Dao_Pho_Piano.html",
     "type": "hot"
   },
   {
@@ -205,7 +205,7 @@
     "genre": ["Lãng mạn", "Chính kịch"],
     "poster": "https://upload.wikimedia.org/wikipedia/vi/4/42/%C3%81p_ph%C3%ADch_phim_M%E1%BA%AFt_bi%E1%BA%BFc.jpg",
     "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/Mat_Biec.html",
+    "link": "../component/movie_info/Mat_Biec.html",
     "type": "hot"
   },
   {
@@ -216,7 +216,7 @@
     "genre": ["Hài", "Chính kịch"],
     "poster": "https://iguov8nhvyobj.vcdn.cloud/media/catalog/product/cache/1/image/c5f0a1eff4c394a251036189ccddaacd/1/2/1200x1800.jpg",
     "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/Bo_Gia.html",
+    "link": "../component/movie_info/Bo_Gia.html",
     "type": "hot"
   },
   {
@@ -227,7 +227,7 @@
     "genre": ["Tâm lý", "Chính kịch"],
     "poster": "https://m.media-amazon.com/images/M/MV5BZGE4MWU5ZDEtMTk5NC00ZTExLWI0Y2EtZDg5ZTE3OGNiYmQxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/Tro_Tan_Ruc_Ro.html",
+    "link": "../component/movie_info/Tro_Tan_Ruc_Ro.html",
     "type": "hot"
   },
   {
@@ -238,7 +238,7 @@
     "genre": ["Drama", "Lịch sử"],
     "poster": "https://iguov8nhvyobj.vcdn.cloud/media/catalog/product/cache/1/image/1800x/71252117777b696995f01934522c402d/c/l/clnc-digitalposter-vnmarket-2048_1_.jpg",
     "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/Cu_Li_Never_Cries.html",
+    "link": "../component/movie_info/Cu_Li_Never_Cries.html",
     "type": "hot"
   },
   {
@@ -249,7 +249,7 @@
     "genre": ["Hài", "Giả tưởng"],
     "poster": "https://m.media-amazon.com/images/M/MV5BODgwYWM2NTQtNGJhYS00ZmMzLTgzYzEtYWNlOGE4YjczZGE5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/Don't_Cry_Butterfly.html",
+    "link": "../component/movie_info/Don't_Cry_Butterfly.html",
     "type": "hot"
   },
   {
@@ -260,7 +260,7 @@
     "genre": ["Hài", "Lãng mạn"],
     "poster": "https://touchcinema.com/uploads/slider-app/470x700-20-poster.jpg",
     "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/The_4_Rascals.html",
+    "link": "../component/movie_info/The_4_Rascals.html",
     "type": "hot"
   },
   {
@@ -271,7 +271,7 @@
     "genre": ["Drama", "Hài"],
     "poster": "https://touchcinema.com/uploads/slider-app/1200wx1600h-poster.jpg",
     "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/The_Real_Sister.html",
+    "link": "../component/movie_info/The_Real_Sister.html",
     "type": "hot"
   },
   {
@@ -282,7 +282,7 @@
     "genre": ["Chính luận", "Lịch sử"],
     "poster": "https://upload.wikimedia.org/wikipedia/vi/thumb/d/df/Diadao2024.jpg/250px-Diadao2024.jpg",
     "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/Diadao_Mat_Troi_Trong_Bong_Toi.html",
+    "link": "../component/movie_info/Diadao_Mat_Troi_Trong_Bong_Toi.html",
     "type": "hot"
   },
   {
@@ -293,7 +293,7 @@
     "genre": ["Kinh dị", "Tâm lý"],
     "poster": "https://iguov8nhvyobj.vcdn.cloud/media/catalog/product/cache/1/image/c5f0a1eff4c394a251036189ccddaacd/q/u/qu_nh_p_tr_ng_-_payoff_poster_-_kc_07032025_1_.jpg",
     "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/Quy_Nhap_Trang.html",
+    "link": "../component/movie_info/Quy_Nhap_Trang.html",
     "type": "hot"
   },
   {
@@ -304,7 +304,7 @@
     "genre": ["Kinh dị", "Tâm lý"],
     "poster": "https://iguov8nhvyobj.vcdn.cloud/media/catalog/product/cache/1/image/c5f0a1eff4c394a251036189ccddaacd/m/a/main_ah_social-1.jpg",
     "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/Den_Am_Hon.html",
+    "link": "../component/movie_info/Den_Am_Hon.html",
     "type": "hot"
   },
   {
@@ -312,10 +312,10 @@
     "director": "Phạm Thiên Ân",
     "year": 2023,
     "description": "Đoạt giải Camera D'or tại Cannes 2023, phim được đánh giá là một trong những phim Việt xuất sắc nhất gần đây .",
-    "genre": ["Drama", "Hành trình"],
+    "genre": ["Drama", "Phiêu lưu"],
     "poster": "https://m.media-amazon.com/images/M/MV5BMzA3Y2M0MGYtMzRmMS00MmNkLTg5MTUtNjc0YjBmZjc0Y2IwXkEyXkFqcGc@._V1_.jpg",
     "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/Inside_the_Yellow_Cocoon_Shell.html",
+    "link": "../component/movie_info/Inside_the_Yellow_Cocoon_Shell.html",
     "type": "hot"
   },
   {
@@ -326,7 +326,7 @@
     "genre": ["Tài liệu", "Xã hội"],
     "poster": "https://upload.wikimedia.org/wikipedia/vi/2/27/Nhungduatretrongsuong.jpg",
     "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/Children_of_the_Mist.html",
+    "link": "../component/movie_info/Children_of_the_Mist.html",
     "type": "hot"
   },
     {
@@ -335,9 +335,9 @@
     "director": "Francis Lawrence",
     "description": "Tiền truyện của loạt phim The Hunger Games, kể về cuộc đời của Coriolanus Snow khi còn trẻ và những sự kiện dẫn đến cuộc nổi dậy trong tương lai.",
     "poster": "https://m.media-amazon.com/images/M/MV5BZDk2YjNhYzEtYzg2ZC00OWEwLWJhYzgtMGUzMWVjNDFmYzI5XkEyXkFqcGc@._V1_.jpg",
-    "genre": ["Hành động", "Phiêu lưu", "Khoa học viễn tưởng"],
+    "genre": ["Hành động", "Phiêu lưu", "Viễn tưởng"],
     "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/The_Hunger_Games_Ballad_of_Songbirds_and_Snakes.html",
+    "link": "../component/movie_info/The_Hunger_Games_Ballad_of_Songbirds_and_Snakes.html",
     "type": "banner"
   },
   {
@@ -348,7 +348,7 @@
     "poster": "https://m.media-amazon.com/images/M/MV5BZWY5ZDVjNTUtODI5Yy00MjFhLWEyM2EtYzZjM2VjZTI0MTBjXkEyXkFqcGc@._V1_.jpg",
     "genre": ["Tội phạm", "Lịch sử", "Hình sự", "Chính kịch"],
     "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/Killers_of_the_Flower_Moon.html",
+    "link": "../component/movie_info/Killers_of_the_Flower_Moon.html",
     "type": "banner"
   },
   {
@@ -359,7 +359,7 @@
     "poster": "https://play-lh.googleusercontent.com/5sq6ghnXhbYhrLx9ZE9XOdSobJarBF3G9hmO8b7daPk0VQNQrNdTCJ77UrCAYmWuSuwe-jUKIlrZveG7yA",
     "genre": ["Chiến tranh", "Tiểu sử", "Lịch sử", "Chính kịch"],
     "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/Napoleon.html",
+    "link": "../component/movie_info/Napoleon.html",
     "type": "banner"
   },
   {
@@ -370,7 +370,7 @@
     "poster": "https://image.tmdb.org/t/p/original/qh8m8Udz0sCa5gy9VaqfHPh0yPM.jpg",
     "genre": ["Chính kịch", "Lãng mạn"],
     "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/Anora.html",
+    "link": "../component/movie_info/Anora.html",
     "type": "banner"
   },
   {
@@ -381,7 +381,7 @@
     "poster": "https://m.media-amazon.com/images/M/MV5BM2U0MWRjZTMtMDVhNC00MzY4LTgwOTktZGQ2MDdiYTI4OWMxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     "genre": ["Chính kịch", "Lịch sử"],
     "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/The_Brutalist.html",
+    "link": "../component/movie_info/The_Brutalist.html",
     "type": "banner"
   },
   {
@@ -390,9 +390,9 @@
     "director": "Denis Villeneuve",
     "description": "Paul Atreides liên minh với Fremen để trả thù kẻ thù, phải chọn giữa tình yêu Chani và vận mệnh vũ trụ, trong trận chiến quyết định tại Arrakis.",
     "poster": "https://m.media-amazon.com/images/M/MV5BNTc0YmQxMjEtODI5MC00NjFiLTlkMWUtOGQ5NjFmYWUyZGJhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-    "genre": ["Khoa học viễn tưởng", "Hành động", "Phiêu lưu"],
+    "genre": ["Viễn tưởng", "Hành động", "Phiêu lưu"],
     "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/Dune_Part_Two.html",
+    "link": "../component/movie_info/Dune_Part_Two.html",
     "type": "banner"
   },
   {
@@ -403,7 +403,7 @@
     "poster": "https://m.media-amazon.com/images/M/MV5BZTcyZGIyODctZGJhOS00MWUyLWI5ZWEtMjg4YzhkMDczMDBhXkEyXkFqcGc@._V1_.jpg",
     "genre": ["Thể thao", "Chính kịch", "Lãng mạn"],
     "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/Challengers.html",
+    "link": "../component/movie_info/Challengers.html",
     "type": "banner"
   },
   {
@@ -414,7 +414,7 @@
     "poster": "https://dep.com.vn/wp-content/uploads/2024/11/2-4.jpg",
     "genre": ["Kinh dị", "Chính kịch", "Viễn tưởng"],
     "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/The_Substance.html",
+    "link": "../component/movie_info/The_Substance.html",
     "type": "banner"
   },
   {
@@ -425,7 +425,7 @@
     "poster": "https://m.media-amazon.com/images/M/MV5BMGRkMzIyY2QtMjc5My00NGRjLWE5ZGUtYjRiMDNjMzAwOTU0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     "genre": ["Chính kịch", "Xã hội", "Lịch sử"],
     "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/Nickel_Boys.html",
+    "link": "../component/movie_info/Nickel_Boys.html",
     "type": "banner"
   },
   {
@@ -436,7 +436,7 @@
     "poster": "https://m.media-amazon.com/images/M/MV5BZWNiZjVlZTUtNGUwYi00MjJmLTg2MDctNWEzYTJiMzY1ODc4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     "genre": ["Hoạt hình", "Phiêu lưu", "Gia đình"],
     "trailer": "https://www.youtube.com/embed/4A_kmjtsJ7c",
-    "link": "/assets/The_Wild_Robot.html",
+    "link": "../component/movie_info/The_Wild_Robot.html",
     "type": "banner"
   }
 ]

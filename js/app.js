@@ -74,18 +74,18 @@ function autoSlide() {
 setInterval(autoSlide, 4000);
 
 // Cuộn ngang danh sách phim đề cử maf khoong caanf giuwx shift
-const scrollContainer_r = document.querySelector('.recommended_movie_list');
-const scrollContainer_h = document.querySelector('.hot_movie_list');
-const scrollContainer_l = document.querySelector('.list');
-scrollContainer_r.addEventListener('wheel', function (evt) { //recommended_movie_list
-  evt.preventDefault(); // ngăn cuộn dọc
-  scrollContainer_r.scrollLeft += evt.deltaY * 2.5; // cuộn ngang theo chiều cuộn chuột
-});
-scrollContainer_h.addEventListener('wheel', function (evt) { //hot_movie_list
-  evt.preventDefault(); 
-  scrollContainer_h.scrollLeft += evt.deltaY * 2.5; 
-});
-scrollContainer_l.addEventListener('wheel', function (evt) { //list
-  evt.preventDefault();
-  scrollContainer_l.scrollLeft += evt.deltaY * 2.5;
+const scrollContainers = [
+  '.recommended_movie_list',
+  '.hot_movie_list',
+  '.list'
+];
+
+scrollContainers.forEach(selector => {
+  const container = document.querySelector(selector);
+  if (container) {
+    container.addEventListener('wheel', function (evt) {
+      evt.preventDefault();
+      container.scrollLeft += evt.deltaY * 2.5;
+    });
+  }
 });
