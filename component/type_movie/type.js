@@ -37,7 +37,7 @@ fetch("../../assets/all_movie.json")
           const movieItem = document.createElement("div");
           movieItem.className = "movie_item";
           movieItem.innerHTML = `
-            <a href="${movie.link}"><img class="item" src="${movie.poster}" alt="${movie.title}" width="200">
+            <a href="/component${movie.link}"><img class="item" src="${movie.poster}" alt="${movie.title}" width="200">
               <p>${movie.title} (${movie.year})</p></a>
           `;
           container.appendChild(movieItem);
