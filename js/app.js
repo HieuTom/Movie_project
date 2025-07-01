@@ -27,7 +27,7 @@
             .then(data => {
                 const movie = data.find(movie => movie.poster === src);
                 if (movie) {
-                    link_banner.setAttribute("href", movie.link);
+                    link_banner.setAttribute("href", `../component${movie.link}`);
                 } else {
                     link_banner.innerHTML = `<p>Thông tin không có sẵn</p>`;
                 }
