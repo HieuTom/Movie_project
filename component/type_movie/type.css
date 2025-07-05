@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid black;
 }
 a {
     text-decoration: none;
@@ -72,6 +71,36 @@ nav ul li a:hover {
 
 }
 
+.search_container button p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#logoutBtn {
+    display: none;
+}
+
+.login_button {
+    display: block;
+}
+
+.search_container p {
+    font-weight: bold;
+}
+
+.search_button {
+    width: 100px;
+    height: 45px;
+    padding: 10px 18px;
+    margin: 8px 0;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .search_bar {
   width: 300px;
   padding: 12px 20px;
@@ -87,6 +116,52 @@ nav ul li a:hover {
   border-radius: 4px;
   background-color: red;
   color: white;
+}
+
+
+.dropdown-results {
+  position: absolute;
+  background-color: #2b2b2b;
+  border: 1px solid #444;
+  border-top: none;
+  width: 300px;
+  max-height: 300px;
+  overflow-y: auto;
+  display: none;
+  z-index: 9999;
+  border-radius: 0 0 6px 6px;
+  top: 100%;
+  right: 11%;
+}
+
+.dropdown-results a {
+    color: white;
+    display: flex;
+}
+.result-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #444;
+  cursor: pointer;
+  color: white;
+}
+
+.result-item:hover {
+  background-color: #444;
+}
+
+.result-item img {
+  width: 50px;
+  height: 70px;
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+a .div {
+  display: flex;
+  align-items: center;
 }
 
 /* Định dạng phần main */

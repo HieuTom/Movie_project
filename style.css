@@ -2,11 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid black;
 }
 
 a {
     text-decoration: none;
+    color: white;
+}
+a :hover {
+    color: orange;
 }
 /* Định dạn phông chữ, khoảng cách dòng, màu nền */
 body {
@@ -65,7 +68,23 @@ nav ul li a:hover {
     display: flex;
     align-items: center;
     gap: 10px;
+}
 
+.search_container button p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#logoutBtn {
+    display: none;
+}
+
+.login_button {
+    display: block;
+}
+
+.search_container p {
+    font-weight: bold;
 }
 
 .search_bar {
@@ -75,14 +94,62 @@ nav ul li a:hover {
   border-radius: 4px;
 }
 
-.search_button {
-  width: 100px;
-  height: 45px;
-  padding: 10px 18px;
-  margin: 8px 0;
-  border-radius: 4px;
-  background-color: red;
+.dropdown-results {
+  position: absolute;
+  background-color: #2b2b2b;
+  border: 1px solid #444;
+  border-top: none;
+  width: 300px;
+  max-height: 300px;
+  overflow-y: auto;
+  display: none;
+  z-index: 9999;
+  border-radius: 0 0 6px 6px;
+  top: 100%;
+  right: 11%;
+}
+
+.dropdown-results a {
+    color: white;
+    display: flex;
+}
+.result-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #444;
+  cursor: pointer;
   color: white;
+}
+
+.result-item:hover {
+  background-color: #444;
+}
+
+.result-item img {
+  width: 50px;
+  height: 70px;
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+a .div {
+  display: flex;
+  align-items: center;
+}
+
+.search_button {
+    width: 100px;
+    height: 45px;
+    padding: 10px 18px;
+    margin: 8px 0;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Định dạng phần banner */
@@ -148,6 +215,7 @@ div div div i:hover {
     padding: 10px;
     scroll-behavior: smooth;
     align-items: center;
+    justify-content: center;
 } 
 
 .list::-webkit-scrollbar {

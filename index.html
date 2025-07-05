@@ -24,7 +24,10 @@
                     <!-- Thanh tìm kiếm và nút tìm kiếm-->
             <div class="search_container">
                 <input type="text" placeholder="Tìm kiếm phim..." class="search_bar">
-                <button class="search_button">Tìm kiếm</button>
+                <button class="search_button"><p>Tìm kiếm</p></button>
+                <a href="/component/login/web.html" class="login_button"  id="loginBtn"><p>Đăng nhập</p></a>
+                <button class="logout_button" id="logoutBtn" onclick="logout()"><p>Đăng xuất</p></button>
+                <div id="searchSuggestions" class="dropdown-results"></div>
             </div>
         </header>
                     <!-- Slide banner -->
@@ -62,7 +65,8 @@
             <p>&copy; 2025 Movie. All rights reserved.</p>
             <p>Liên hệ: <a href="mailto:giaphieu2006@gmail.com">gmail</a>
         </footer>
-    </body>
+</body>
 </html>
 <script src="js/import_film.js"></script>
 <script src="js/app.js"></script>
+<script src="component/login/web.js"></script>

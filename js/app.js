@@ -89,3 +89,49 @@ scrollContainers.forEach(selector => {
     });
   }
 });
+
+
+// Tìm kiếm phim
+fetch('assets/all_movie.json')
+  .then(response => response.json())
+  .then(movies => {
+    const input = document.querySelector('.search_bar');
+    const suggestions = document.getElementById('searchSuggestions');
+
+    input.addEventListener('input', function () {
+      const keyword = this.value.toLowerCase().trim();
+      suggestions.innerHTML = '';
+
+      if (!keyword) {
+        suggestions.style.display = 'none';
+        return;
+      }
+
+      const filtered = movies.filter(movie =>
+        movie.title && movie.title.toLowerCase().startsWith(keyword)
+      );
+
+      if (filtered.length === 0) {
+        suggestions.style.display = 'none';
+        return;
+      }
+
+      filtered.forEach(movie => {
+        const item = document.createElement('div');
+        item.className = 'result-item';
+        item.innerHTML = `
+        <a href="../component${movie.link}" class="result-link">
+          <img src="${movie.poster}" alt="${movie.title}">
+          <div>
+            <strong>${movie.title_vn || movie.title}</strong><br>
+            <small>${movie.year || ''} ${movie.duration || ''}</small>
+          </div>
+          </a>
+        `;
+        item.onclick = () => {};  // no navigation
+        suggestions.appendChild(item);
+      });
+
+      suggestions.style.display = 'block';
+    });
+  });
