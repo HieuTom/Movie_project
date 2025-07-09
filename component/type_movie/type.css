@@ -5,7 +5,7 @@
 }
 a {
     text-decoration: none;
-    color: wheat;
+    color: #444;
 }
 
 a:hover {
@@ -34,15 +34,19 @@ header {
 
 .container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    width: 50%;
+    gap: 10%
+}
 
+.logo {
+    padding-left: 10%;
 }
 
 .logo a {
     color: red;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 32px;
     text-decoration: none;
 }
 
@@ -65,10 +69,11 @@ nav ul li a:hover {
 }
 
 .search_container {
+    width: 30%;
     display: flex;
     align-items: center;
-    gap: 10px;
-
+    justify-content: space-between;
+    padding-right: 5%;
 }
 
 .search_container button p {
@@ -78,6 +83,9 @@ nav ul li a:hover {
 
 #logoutBtn {
     display: none;
+    width: 30%;
+    height: 40px;
+    background-color: #888;
 }
 
 .login_button {
@@ -124,14 +132,14 @@ nav ul li a:hover {
   background-color: #2b2b2b;
   border: 1px solid #444;
   border-top: none;
-  width: 300px;
+  width: 15%;
   max-height: 300px;
   overflow-y: auto;
   display: none;
   z-index: 9999;
   border-radius: 0 0 6px 6px;
   top: 100%;
-  right: 11%;
+  right: 15%;
 }
 
 .dropdown-results a {
@@ -176,7 +184,6 @@ main p {
     color: white;
     padding: 20px;
     font-size: 18px;
-    font-weight: bold;
     width: 200px;
 }
 
@@ -185,7 +192,7 @@ main p {
     overflow-x: auto;
     gap: 20px;
     padding: 20px;
-    
+    margin-left: 10px;
 }
 
 .funny_movie_list::-webkit-scrollbar,
@@ -241,10 +248,51 @@ p:hover {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 20px;
-    margin-left: 20px;
+    margin-left: 200px;
 }
 
 .wrapper {
     width: 75%;
     margin: 0 auto;
+}
+
+.up_arrow {
+    position:fixed;
+    font-size: 64px;
+    color: #444;
+    width: 3.5%;
+    height: 75px;
+    right: 1%;
+    bottom: 100px;
+    z-index: 100;
+    transition: transform 0.5s ease;
+}
+
+.up_arrow:hover {
+    transform: scale(1.2);
+    color: orange;
+}
+
+#on {
+    font-size: 64px;
+    bottom: 35px;
+    position: fixed;
+    right: 1%;
+    transition: transform 0.5s ease;
+}
+#on:hover {
+    transform: scale(1.2);
+    color: orange;
+}
+
+#off {
+    font-size: 64px;
+    bottom: 35px;
+    position: fixed;
+    right:1%;
+    transition: transform 0.5s ease;
+    display: none;
+}
+#off:hover {
+    transform: scale(1.2);
 }

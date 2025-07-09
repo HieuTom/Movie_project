@@ -32,7 +32,7 @@ fetch("../../assets/all_movie.json")
       const container = document.querySelector(selector);
       if (!container) return;
 
-      data.filter(movie => movie.genre && movie.genre.includes(genre))
+      data.filter(movie => movie.genre.includes(genre))
         .forEach(movie => {
           const movieItem = document.createElement("div");
           movieItem.className = "movie_item";
@@ -100,7 +100,7 @@ fetch('../../assets/all_movie.json')
         <a href="../component${movie.link}" class="result-link">
           <img src="${movie.poster}" alt="${movie.title}">
           <div>
-            <strong>${movie.title_vn || movie.title}</strong><br>
+            <p>${movie.title_vn || movie.title}</p><br>
             <small>${movie.year || ''} ${movie.duration || ''}</small>
           </div>
           </a>
@@ -108,7 +108,62 @@ fetch('../../assets/all_movie.json')
         item.onclick = () => {};  // no navigation
         suggestions.appendChild(item);
       });
-
       suggestions.style.display = 'block';
     });
   });
+
+  function logout() {
+    localStorage.removeItem("username");
+    window.location.href= "/../../index.html";
+}
+
+window.onload = function () {
+
+    const user = localStorage.getItem("username");
+    if (user) {
+      document.getElementById("loginBtn").style.display = "none";
+      document.getElementById("logoutBtn").style.display = "block";
+    } else {
+      document.getElementById("logoutBtn").style.display = "none";
+    }
+};
+
+function to_top(){
+  window.scrollTo({
+    top:0,
+    left:0,
+    behavior: "smooth"
+  })
+}
+
+//Thay nền sáng
+function turn_on() {
+  const bg = document.getElementsByTagName("main")[0];
+  const tab = document.getElementsByTagName("header")[0];
+  const text= document.getElementsByTagName("p");
+  const bulb = document.getElementById("on");
+  const bulb_2 = document.getElementById("off");
+  bg.style.backgroundColor = "white";
+  tab.style.backgroundColor = "aqua";
+  [...text].forEach( t => {
+    t.style.color = "black";
+  });
+  bulb.style.display = "none";
+  bulb_2.style.display = "block";
+}
+
+// Thay nền tối
+function turn_off() {
+  const bg = document.getElementsByTagName("main")[0];
+  const tab = document.getElementsByTagName("header")[0];
+  const text= document.getElementsByTagName("p");
+  const bulb = document.getElementById("on");
+  const bulb_2 = document.getElementById("off");
+  bg.style.backgroundColor = "rgb(25,25,25)";
+  tab.style.backgroundColor = "black";
+  [...text].forEach( t => {
+    t.style.color = "white";
+  });
+  bulb.style.display = "block";
+  bulb_2.style.display = "none";
+}

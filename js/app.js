@@ -135,3 +135,47 @@ fetch('assets/all_movie.json')
       suggestions.style.display = 'block';
     });
   });
+// Di chuyển lên đầu trang
+function to_top(){
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "smooth"
+  })
+}
+
+//Thay nền sáng
+function turn_on() {
+  const bg = document.getElementsByTagName("main")[0];
+  const tab = document.getElementsByTagName("header")[0];
+  const banner = document.querySelector(".container_1");
+  const text= document.getElementsByTagName("p");
+  const bulb = document.getElementById("on");
+  const bulb_2 = document.getElementById("off");
+  banner.style.backgroundColor= "white";
+  bg.style.backgroundColor = "white";
+  tab.style.backgroundColor = "aqua";
+  [...text].forEach( t => {
+    t.style.color = "black";
+  });
+  bulb.style.display = "none";
+  bulb_2.style.display = "block";
+}
+
+// Thay nền tối
+function turn_off() {
+  const bg = document.getElementsByTagName("main")[0];
+  const tab = document.getElementsByTagName("header")[0];
+  const banner = document.querySelector(".container_1");
+  const text= document.getElementsByTagName("p");
+  const bulb = document.getElementById("on");
+  const bulb_2 = document.getElementById("off");
+  banner.style.backgroundColor= "rgb(25,25,25)";
+  bg.style.backgroundColor = "rgb(25,25,25)";
+  tab.style.backgroundColor = "black";
+  [...text].forEach( t => {
+    t.style.color = "white";
+  });
+  bulb.style.display = "block";
+  bulb_2.style.display = "none";
+}

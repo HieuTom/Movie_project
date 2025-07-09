@@ -1,8 +1,9 @@
 <!DOCTYPE html>>
 <html lang="vi">
     <head>
-        <title>Movie</title>
+        <title>Thể loại</title>
         <link rel="stylesheet" href="type.css">
+        <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'> <!-- Thư viện biểu tượng nút mũi tên hướng lên-->
         <meta charset="UTF-8">
     </head>
     <body>
@@ -24,8 +25,7 @@
                     <!-- Thanh tìm kiếm và nút tìm kiếm-->
             <div class="search_container">
                 <input type="text" placeholder="Tìm kiếm phim..." class="search_bar">
-                <button class="search_button"><p>Tìm kiếm</p></button>
-                <a href="../login/web.html" class="login_button"  id="loginBtn"><p>Đăng nhập</p></a>
+                <a href="../login/login.html" class="login_button"  id="loginBtn"><p>Đăng nhập</p></a>
                 <button class="logout_button" id="logoutBtn" onclick="logout()"><p>Đăng xuất</p></button>
                 <div id="searchSuggestions" class="dropdown-results"></div>
             </div>
@@ -34,28 +34,27 @@
             <div class="genre">
                 <p>Các thể loại phim:</p>
                 <div class="genre_list">
-                    <a href="#action">Hành động</a>
-                    <a href="#adventure">Phiêu lưu</a>
-                    <a href="#animation">Hoạt hình</a>
-                    <a href="#biography">Chính kịch</a>
-                    <a href="#comedy">Hài</a>
-                    <a href="#crime">Tội phạm</a>
-                    <a href="#documentary">Tài liệu</a>
-                    <a href="#drama">Tình cảm</a>
-                    <a href="#fantasy">Giả tưởng</a>
-                    <a href="#family">Gia đình</a>
-                    <a href="#historical">Lịch sử</a>
-                    <a href="#horror">Kinh dị</a>
-                    <a href="#mystery">Bí ẩn</a>
-                    <a href="#musical">Âm nhạc</a>
-                    <a href="#political">Chính luận</a>
-                    <a href="#psychological">Tâm lý</a>
-                    <a href="#romance">Lãng mạn </a>
-                    <a href="#science">Thể thao</a>
-                    <a href="#science_fiction">Viễn tưởng</a>
-                    <a href="#social">Xã hội</a>
-                    <a href="#thriller">Giật gân</a>
-                    <a href="#war">Chiến tranh</a>
+                    <a href="#adventure"><p>Phiêu lưu</p></a>
+                    <a href="#animation"><p>Hoạt hình</p></a>
+                    <a href="#biography"><p>Chính kịch</p></a>
+                    <a href="#comedy"><p>Hài</p></a>
+                    <a href="#crime"><p>Tội phạm</p></a>
+                    <a href="#documentary"><p>Tài liệu</p></a>
+                    <a href="#drama"><p>Tình cảm</p></a>
+                    <a href="#fantasy"><p>Giả tưởng</p></a>
+                    <a href="#family"><p>Gia đình</p></a>
+                    <a href="#historical"><p>Lịch sử</p></a>
+                    <a href="#horror"><p>Kinh dị</p></a>
+                    <a href="#mystery"><p>Bí ẩn</p></a>
+                    <a href="#musical"><p>Âm nhạc</p></a>
+                    <a href="#political"><p>Chính luận</p></a>
+                    <a href="#psychological"><p>Tâm lý</p></a>
+                    <a href="#romance"><p>Lãng mạn</p></a>
+                    <a href="#science"><p>Thể thao</p></a>
+                    <a href="#science_fiction"><p>Viễn tưởng</p></a>
+                    <a href="#social"><p>Xã hội</p></a>
+                    <a href="#thriller"><p>Giật gân</p></a>
+                    <a href="#war"><p>Chiến tranh</p></a>
                 </div>
 
             </div>
@@ -146,6 +145,14 @@
             <div class="wrapper" id="western">
                 <p>Xã hội</p>
                 <div class="social_movie_list"></div>
+            </div>
+            <div class="up_arrow" onclick="to_top()">
+                <i class='bxr  bx-arrow-up'  ></i> 
+            </div>
+            <!--Nền sáng, tối-->
+            <div class="light_mode">
+                <i id="on" class='bxr  bx-light-bulb-on' onclick="turn_on()" ></i> 
+                <i id="off" class='bxr  bx-light-bulb'  onclick="turn_off()" ></i> 
             </div>
     </body>
 </html>

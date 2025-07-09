@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid black;
 }
 /* Định dạn phông chữ, khoảng cách dòng, màu nền */
 body {
@@ -27,9 +26,13 @@ header {
 
 .container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    width: 50%;
+    gap: 10%
+}
 
+.logo {
+    padding-left: 10%;
 }
 
 .logo a {
@@ -61,7 +64,7 @@ nav ul li a:hover {
     display: flex;
     align-items: center;
     gap: 10px;
-
+    margin-right: 5%;
 }
 
 .search_bar {
@@ -90,6 +93,7 @@ main {
     justify-content: center;
     align-items: center;
     background-color: rgb(25, 25, 25);
+    background-size: cover;
 }
 
 .movie_info {
@@ -103,4 +107,10 @@ main {
 .movie_info p {
     color: white;
     margin-bottom: 10px;
+}
+.rating {
+    left: 10%;
+}
+.star {
+    font-size: 24px;
 }

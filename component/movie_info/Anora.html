@@ -3,6 +3,7 @@
     <head>
         <title>Movie</title>
         <link rel="stylesheet" href="movie_info.css">
+        <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'> <!-- Thư viện biểu tượng nút mũi tên hướng lên-->
         <meta charset="UTF-8">
     </head>
     <body>
@@ -23,11 +24,19 @@
                     <!-- Thanh tìm kiếm và nút tìm kiếm-->
             <div class="search_container">
                 <input type="text" placeholder="Tìm kiếm phim..." class="search_bar">
-                <button class="search_button">Tìm kiếm</button>
+                 
             </div>
         </header>
         <main>
             <div class="watching_movie"></div>
+            <div class="rating">
+                <span class="star" data-value="1"><i class='bx bx-star'></i></span>
+                <span class="star" data-value="2"><i class='bx bx-star'></i></span>
+                <span class="star" data-value="3"><i class='bx bx-star'></i></span>
+                <span class="star" data-value="4"><i class='bx bx-star'></i></span>
+                <span class="star" data-value="5"><i class='bx bx-star'></i></span>
+            </div>
+            
             <div class="movie_info"></div>
         </main>
     </body>

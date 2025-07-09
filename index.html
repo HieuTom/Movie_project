@@ -1,9 +1,9 @@
 <!DOCTYPE html>>
 <html lang="vi">
     <head>
-        <title>Movie</title>
+        <title>Trang chủ</title>
         <link rel="stylesheet" href="style.css">
-        <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'> <!-- Thư viện biểu tượng nút mũi tên-->
+        <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'> <!-- Thư viện biểu tượng nút mũi tên hướng lên-->
         <meta charset="UTF-8">
     </head>
     <body>
@@ -14,18 +14,17 @@
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="index.html">Trang chủ</a></li>
-                        <li><a href="/component/type_movie/type.html">Thể loại</a></li>
-                        <li><a href="#Recommended">Đề cử</a></li>
-                        <li><a href="#Hot_movie">Phim hot</a></li>
+                        <li><a href="index.html"><p>Trang chủ</p></a></li>
+                        <li><a href="/component/type_movie/type.html"><p>Thể loại</p></a></li>
+                        <li><a href="#Recommended"><p>Đề cử</p></a></li>
+                        <li><a href="#Hot_movie"><p>Phim hot</p></a></li>
                     </ul>
                 </nav>
             </div>
                     <!-- Thanh tìm kiếm và nút tìm kiếm-->
             <div class="search_container">
                 <input type="text" placeholder="Tìm kiếm phim..." class="search_bar">
-                <button class="search_button"><p>Tìm kiếm</p></button>
-                <a href="/component/login/web.html" class="login_button"  id="loginBtn"><p>Đăng nhập</p></a>
+                <a href="/component/login/login.html" class="login_button"  id="loginBtn"><p>Đăng nhập</p></a>
                 <button class="logout_button" id="logoutBtn" onclick="logout()"><p>Đăng xuất</p></button>
                 <div id="searchSuggestions" class="dropdown-results"></div>
             </div>
@@ -59,12 +58,17 @@
             <div class="wrapper">
                 <div class="all_movie_list"></div>
             </div>
+            <!--Lên đầu trang-->
+            <div class="up_arrow" onclick="to_top()">
+                <i class='bxr  bx-arrow-up'  ></i> 
+            </div>
+            <!--Nền sáng, tối-->
+            <div class="light_mode">
+                <i id="on" class='bxr  bx-light-bulb-on' onclick="turn_on()" ></i> 
+                <i id="off" class='bxr  bx-light-bulb'  onclick="turn_off()" ></i> 
+            </div>
         </main>
 
-        <footer>
-            <p>&copy; 2025 Movie. All rights reserved.</p>
-            <p>Liên hệ: <a href="mailto:giaphieu2006@gmail.com">gmail</a>
-        </footer>
 </body>
 </html>
 <script src="js/import_film.js"></script>
