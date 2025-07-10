@@ -73,7 +73,7 @@ function autoSlide() {
 }
 setInterval(autoSlide, 4000);
 
-// Cuộn ngang danh sách phim đề cử maf khoong caanf giuwx shift
+// Cuộn ngang danh sách phim.
 const scrollContainers = [
   '.recommended_movie_list',
   '.hot_movie_list',

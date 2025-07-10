@@ -18,7 +18,7 @@ fetch("../../assets/all_movie.json")
         const movie_detail = document.createElement("div");
         movie_detail.classList.add("movie_detail");
         movie_detail.innerHTML = `
-            <h2>${movie.title} (${movie.year})</h2>
+            <p class="tag">${movie.title} (${movie.year})</p>
             <p>Đạo diễn: ${movie.director} </p>
             <p>Thể loại: ${movie.genre.join(", ")} </p>
             <p>${movie.description}</p>
