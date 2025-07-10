@@ -10,7 +10,7 @@ fetch("../../assets/all_movie.json")
         { genre: "Hành động", selector: ".action_movie_list" },
         { genre: "Giật gân", selector: ".thriller_movie_list" },
         { genre: "Kinh dị", selector: ".horror_movie_list" },
-        { genre: "Tình cảm", selector: ".drama_movie_list" },
+        { genre: "Drama", selector: ".drama_movie_list" },
         { genre: "Tâm lý", selector: ".psychological_movie_list" },
         { genre: "Viễn tưởng", selector: ".science_fiction_movie_list" },
         { genre: "Tài liệu", selector: ".documentary_movie_list" },
@@ -37,7 +37,7 @@ fetch("../../assets/all_movie.json")
           const movieItem = document.createElement("div");
           movieItem.className = "movie_item";
           movieItem.innerHTML = `
-            <a href="/component${movie.link}"><img class="item" src="${movie.poster}" alt="${movie.title}" width="200">
+            <a href="/component/movie_info/${movie.link}"><img class="item" src="${movie.poster}" alt="${movie.title}" width="200">
               <p>${movie.title} (${movie.year})</p></a>
           `;
           container.appendChild(movieItem);
@@ -58,6 +58,7 @@ scrollContainers = [
     ".psychological_movie_list",
     ".adventure_movie_list",
     ".science_fiction_movie_list",
+    ".drama_movie_list"
 ]
 
 scrollContainers.forEach(selector => {
@@ -97,7 +98,7 @@ fetch('../../assets/all_movie.json')
         const item = document.createElement('div');
         item.className = 'result-item';
         item.innerHTML = `
-        <a href="../component${movie.link}" class="result-link">
+        <a href="../component/movie_info//movie_info/${movie.link}" class="result-link">
           <img src="${movie.poster}" alt="${movie.title}">
           <div>
             <p>${movie.title_vn || movie.title}</p><br>
@@ -144,7 +145,7 @@ function turn_on() {
   const bulb = document.getElementById("on");
   const bulb_2 = document.getElementById("off");
   bg.style.backgroundColor = "white";
-  tab.style.backgroundColor = "aqua";
+  tab.style.backgroundColor = "rgb(90, 90, 90)";
   [...text].forEach( t => {
     t.style.color = "black";
   });

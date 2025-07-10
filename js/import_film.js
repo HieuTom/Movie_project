@@ -7,7 +7,7 @@ fetch("../assets/all_movie.json")
     .forEach(movie => {
       const movie_item = document.createElement("div");
       movie_item.innerHTML = `
-        <a href="../component${movie.link}"><img class="item" src="${movie.poster}" alt="${movie.title}" width="200"></a>
+        <a href="../component/movie_info/${movie.link}"><img class="item" src="${movie.poster}" alt="${movie.title}" width="200"></a>
       `;
       list.appendChild(movie_item);
     });
@@ -26,7 +26,7 @@ fetch("../assets/all_movie.json")
     .forEach(recommended_movie =>{
       const recommended_movie_item = document.createElement("div");
       recommended_movie_item.innerHTML = `
-        <a href="../component${recommended_movie.link}"><img src="${recommended_movie.poster}" alt="${recommended_movie.title}" width="200">
+        <a href="../component/movie_info/${recommended_movie.link}"><img src="${recommended_movie.poster}" alt="${recommended_movie.title}" width="200">
         <p>${recommended_movie.title} (${recommended_movie.year})</p>
         </a>
       `;
@@ -46,7 +46,7 @@ fetch("../assets/all_movie.json")
     .forEach(hot_movie => {
       const hot_movie_item = document.createElement("div");
       hot_movie_item.innerHTML = `
-        <a href="../component${hot_movie.link}"><img src="${hot_movie.poster}" alt="${hot_movie.title}" width="200">
+        <a href="../component/movie_info/${hot_movie.link}"><img src="${hot_movie.poster}" alt="${hot_movie.title}" width="200">
         <p>${hot_movie.title} (${hot_movie.year})</p>
         </a>
       `;
@@ -64,7 +64,7 @@ fetch("../assets/all_movie.json")
     data.forEach(movie => {
       const movie_item = document.createElement("div");
       movie_item.innerHTML = `
-        <a href="../component${movie.link}"><img class="item" src="${movie.poster}" alt="${movie.title}" width="200">
+        <a href="../component/movie_info/${movie.link}"><img class="item" src="${movie.poster}" alt="${movie.title}" width="200">
         <p>${movie.title} (${movie.year})</p>
         </a>
       `;

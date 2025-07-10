@@ -27,7 +27,7 @@
             .then(data => {
                 const movie = data.find(movie => movie.poster === src);
                 if (movie) {
-                    link_banner.setAttribute("href", `../component${movie.link}`);
+                    link_banner.setAttribute("href", `../component/movie_info/${movie.link}`);
                 } else {
                     link_banner.innerHTML = `<p>Thông tin không có sẵn</p>`;
                 }
@@ -120,7 +120,7 @@ fetch('assets/all_movie.json')
         const item = document.createElement('div');
         item.className = 'result-item';
         item.innerHTML = `
-        <a href="../component${movie.link}" class="result-link">
+        <a href="../component/movie_info/${movie.link}" class="result-link">
           <img src="${movie.poster}" alt="${movie.title}">
           <div>
             <strong>${movie.title_vn || movie.title}</strong><br>
@@ -135,6 +135,7 @@ fetch('assets/all_movie.json')
       suggestions.style.display = 'block';
     });
   });
+  
 // Di chuyển lên đầu trang
 function to_top(){
   window.scrollTo({
@@ -154,7 +155,7 @@ function turn_on() {
   const bulb_2 = document.getElementById("off");
   banner.style.backgroundColor= "white";
   bg.style.backgroundColor = "white";
-  tab.style.backgroundColor = "aqua";
+  tab.style.backgroundColor = "rgb(90, 90, 90)";
   [...text].forEach( t => {
     t.style.color = "black";
   });
