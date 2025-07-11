@@ -96,6 +96,7 @@ function send() {
         const comment_area = document.querySelector(".comment_place");
         const comment = document.createElement("p");
         comment.innerHTML = `${localStorage.getItem("username")} đã bình luận: ${input}`;
+        localStorage.setItem(`${localStorage.getItem("username")}-comment`, input);
         comment_area.appendChild(comment);
     } else {
         alert("Vui lòng đăng nhập để bình luận !")
